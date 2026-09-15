@@ -1,5 +1,110 @@
 # Hermes Agent - Development Guide
 
+<!-- KH_MEMORY_BLOCK -->
+## 🧠 MEMORY — Query Knowledge Hub BEFORE any task
+
+**KH is the single source of truth** for all UNTH.AI projects.
+It stores: deploy steps · current state · gotchas · API keys · services · architectural decisions · cross-project patterns · wiki · system snapshots.
+
+**Rule: if you don't know something, search KH before asking the human.**
+
+| | |
+|---|---|
+| **KH URL** | `https://knowledge-hub.unth.ai` |
+| **API key** | `$KNOWLEDGE_HUB_API_KEY` |
+| **This project slug** | `hermes` |
+| **Web UI** | <https://knowledge-hub.unth.ai> |
+
+### Step 1 — Get this project's full context (run every new session)
+
+```bash
+curl -s \
+  -H "x-api-key: ${KNOWLEDGE_HUB_API_KEY:-${KH_API_KEY:?set KNOWLEDGE_HUB_API_KEY or KH_API_KEY}}" \
+  "https://knowledge-hub.unth.ai/api/projects/hermes/primer" | python3 -m json.tool
+```
+
+### Step 2 — Search for anything
+
+```bash
+# Scoped to this project
+curl -s -X POST "https://knowledge-hub.unth.ai/api/agent/context" \
+  -H "x-api-key: ${KNOWLEDGE_HUB_API_KEY:-${KH_API_KEY:?set KNOWLEDGE_HUB_API_KEY or KH_API_KEY}}" \
+  -H "Content-Type: application/json" \
+  -d '{"query": "YOUR QUESTION HERE", "project": "hermes", "role": "codex", "strict_project": true}'
+
+# Cross-project (no slug) — use for "what is X", "VPS IP", "postgres password"
+curl -s -X POST "https://knowledge-hub.unth.ai/api/agent/context" \
+  -H "x-api-key: ${KNOWLEDGE_HUB_API_KEY:-${KH_API_KEY:?set KNOWLEDGE_HUB_API_KEY or KH_API_KEY}}" \
+  -H "Content-Type: application/json" \
+  -d '{"query": "YOUR QUESTION HERE", "role": "codex"}'
+```
+
+### Step 3 — Contribute knowledge back to KH (after learning something)
+
+Always send `session_id` and `source_ref`. Without them the fact is stored
+with no record of where it came from, and the next agent cannot check it.
+`source_ref` is `<kind>:<value>` — `file:<path you read>`,
+`transcript:<file>.jsonl`, `commit:<sha>`, `url:<url>`, `chat:<session>` or
+`manual`. Never a token: the write path rejects credential-shaped values.
+
+```bash
+# Entity (service, server, tool, API, container)
+curl -s -X POST "https://knowledge-hub.unth.ai/api/agent/contribute" \
+  -H "x-api-key: ${KNOWLEDGE_HUB_API_KEY:-${KH_API_KEY:?set KNOWLEDGE_HUB_API_KEY or KH_API_KEY}}" \
+  -H "Content-Type: application/json" \
+  -d '{"layer":"entities","agent_role":"codex","session_id":"YOUR-SESSION-ID","source_ref":"file:PATH-YOU-READ","content":{"name":"Name","slug":"name","description":"What it is and where","applies_to":["hermes"]}}'
+
+# Decision (architectural or technical choice)
+curl -s -X POST "https://knowledge-hub.unth.ai/api/agent/contribute" \
+  -H "x-api-key: ${KNOWLEDGE_HUB_API_KEY:-${KH_API_KEY:?set KNOWLEDGE_HUB_API_KEY or KH_API_KEY}}" \
+  -H "Content-Type: application/json" \
+  -d '{"layer":"decisions","agent_role":"codex","session_id":"YOUR-SESSION-ID","source_ref":"file:PATH-YOU-READ","content":{"title":"Title","rationale":"What was decided and why","applies_to":["hermes"]}}'
+
+# Pattern (gotcha, reusable approach, lesson learned)
+curl -s -X POST "https://knowledge-hub.unth.ai/api/agent/contribute" \
+  -H "x-api-key: ${KNOWLEDGE_HUB_API_KEY:-${KH_API_KEY:?set KNOWLEDGE_HUB_API_KEY or KH_API_KEY}}" \
+  -H "Content-Type: application/json" \
+  -d '{"layer":"patterns","agent_role":"codex","session_id":"YOUR-SESSION-ID","source_ref":"file:PATH-YOU-READ","content":{"name":"Name","slug":"name","description":"The pattern or gotcha","applies_to":["hermes"]}}'
+```
+
+### Provenance — always send `session_id` and `source_ref`
+
+Every fact records where it came from, and it is only useful if you send it.
+`source_ref` is `<kind>:<value>`: `file:<path you read>`,
+`transcript:<uuid>.jsonl`, `commit:<sha>`, `url:<url>`,
+`chat:<session>`, or `manual`. `session_id` is whatever your tool calls a
+session. `source_agent` is filled in for you from the API key — do not send it.
+Both fields come back from `GET /api/agent/context`, so the next agent can see
+where a claim came from. **Never put a token in either field** — the write paths
+reject credential-shaped values outright.
+
+### For Claude Code — MCP tools (faster than curl)
+
+MCP server `knowledge-hub`, registered at user scope (`~/.claude.json`) by knowledge-hub's `scripts/client/install.sh` — not `~/.claude/mcp.json`, which
+stopped being the config location and is what earlier copies of this block said.
+Tools show up as `mcp__knowledge-hub__searchContext` and so on.
+
+| Tool | Purpose |
+|---|---|
+| `searchContext(query, project?)` | Hybrid search — fastest way to find anything |
+| `getPrimer(slug)` | Full project primer (current state, gotchas, deploy) |
+| `getGotchas(slug)` | Critical gotchas only |
+| `readWikiPage(path)` | Read a wiki page |
+| `writeWikiPage(path, content)` | Update the wiki |
+| `getMemory(slug)` | Latest system snapshot (git SHA, container health) |
+| `listProjects()` | All tracked projects and slugs |
+
+```
+searchContext("how to deploy this project", "hermes")
+searchContext("what is hermes")     ← cross-project, no slug needed
+getPrimer("hermes")
+getGotchas("hermes")
+```
+
+<!-- KH_MEMORY_BLOCK_END -->
+
+---
+
 Instructions for AI coding assistants and developers working on the hermes-agent codebase.
 This root file holds only what applies everywhere. Each area has its own `AGENTS.md` (aim for
 ~8k chars; `agent/subdirectory_hints.py` delivers up to 32k and truncates head/tail with a warning
