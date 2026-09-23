@@ -17,7 +17,12 @@ It stores: deploy steps · current state · gotchas · API keys · services · a
 
 ### Step 1 — Get this project's full context (run every new session)
 
+Each block starts by loading `~/.claude/.kh-env`, where the key lives on a
+Claude Code machine. Keep that line: Claude Code's Bash tool does not see
+`~/.zshrc` exports, and nothing carries over from one command to the next.
+
 ```bash
+set -a; . ~/.claude/.kh-env 2>/dev/null; set +a
 curl -s \
   -H "x-api-key: ${KNOWLEDGE_HUB_API_KEY:-${KH_API_KEY:?set KNOWLEDGE_HUB_API_KEY or KH_API_KEY}}" \
   "https://knowledge-hub.unth.ai/api/projects/hermes/primer" | python3 -m json.tool
@@ -26,6 +31,7 @@ curl -s \
 ### Step 2 — Search for anything
 
 ```bash
+set -a; . ~/.claude/.kh-env 2>/dev/null; set +a
 # Scoped to this project
 curl -s -X POST "https://knowledge-hub.unth.ai/api/agent/context" \
   -H "x-api-key: ${KNOWLEDGE_HUB_API_KEY:-${KH_API_KEY:?set KNOWLEDGE_HUB_API_KEY or KH_API_KEY}}" \
@@ -48,6 +54,7 @@ with no record of where it came from, and the next agent cannot check it.
 `manual`. Never a token: the write path rejects credential-shaped values.
 
 ```bash
+set -a; . ~/.claude/.kh-env 2>/dev/null; set +a
 # Entity (service, server, tool, API, container)
 curl -s -X POST "https://knowledge-hub.unth.ai/api/agent/contribute" \
   -H "x-api-key: ${KNOWLEDGE_HUB_API_KEY:-${KH_API_KEY:?set KNOWLEDGE_HUB_API_KEY or KH_API_KEY}}" \
