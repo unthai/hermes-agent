@@ -1,3 +1,5 @@
+> Query Knowledge Hub before asking the human: `searchContext`, slug in `.kh-project`. Full rules, curl templates and UNTHAI product names are in [AGENTS.md](./AGENTS.md).
+
 ## graphify
 
 This project has a knowledge graph at graphify-out/ with god nodes, community structure, and cross-file relationships.
