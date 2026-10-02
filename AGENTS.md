@@ -8,7 +8,7 @@ It stores: deploy steps · current state · gotchas · API keys · services · a
 
 **Rule: if you don't know something, search KH before asking the human.**
 
-**Product names** (decided 2026-10-01): MUGEN = core · HERMES = agent · HERALD = social media posting · IRIS = content engine · PHEME = voice · XENIA = the CRM · NEME = Knowledge Hub · HEPH = old agentic-os, retired. Internal labels, always said with UNTHAI; all sold inside MUGEN, alone or as a full suite. Older docs may still say crm, unth-os or Knowledge Hub; same things. Detail: `searchContext("product names")`.
+**Product names** (decided 2026-10-01): MUGEN = core · HERMES = agent · HERALD = social media posting · IRIS = content engine · PHEME = voice · XENIA = the CRM · NEME = Knowledge Hub · HEPH = local builder on Mat's Mac, the revived agentic-os. Internal labels, always said with UNTHAI; all sold inside MUGEN, alone or as a full suite. Older docs may still say crm, unth-os or Knowledge Hub; same things. Detail: `searchContext("product names")`.
 
 | | |
 |---|---|
