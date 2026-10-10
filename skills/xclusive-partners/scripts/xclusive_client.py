@@ -15,7 +15,7 @@ import urllib.request
 
 
 def get_base_url():
-    base = os.getenv("XCLUSIVE_API_BASE", "https://admin.xclusive-world.com")
+    base = os.getenv("XCLUSIVE_API_BASE", "https://xclusive-world.com")
     return base.rstrip("/")
 
 

@@ -26,7 +26,7 @@ Query, verify, register, and manage vetted high-end luxury partners (private jet
 ## Prerequisites
 
 - Environment variables:
-  - `XCLUSIVE_API_BASE`: API base URL (default: `https://admin.xclusive-world.com`).
+  - `XCLUSIVE_API_BASE`: API base URL (default: `https://xclusive-world.com`).
   - `XCLUSIVE_AGENT_KEY` or `XCLUSIVE_STAFF_SECRET`: Authentication secret for the platform service.
 
 ## How to Run
