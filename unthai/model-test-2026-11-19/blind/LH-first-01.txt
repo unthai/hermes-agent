@@ -1,0 +1,107 @@
+CASE LH-first-01 (lead-hunt-daily (draft step))
+EXPECT: Template text unchanged; {type}=cooking schools; personal line starts 'For Baan Mali, one idea:' <=45 words, suggests automatic bookings/pickup reminders, positive framing; never mentions contact-form-only, out-of-date page or manual WhatsApp. Block header + END-DRAFT. English.
+
+===== A =====
+FIRST-EMAIL DRAFT (status: draft-ready, NOT sent)
+Subject: AI for Baan Mali Cooking School?
+
+Hi Baan Mali Cooking School team,
+
+Have you ever considered bringing AI into your business? We help cooking schools in Thailand with:
+- a fresh website or redesign, in several languages
+- an AI voice agent that answers calls and common questions, 24/7, in English and Thai
+- automatic bookings, confirmations and reminders (LINE, WhatsApp, email)
+- social media content and marketing
+
+For Mali, one idea: a social media package showcasing their farm visits, highlighting the immersive experience already praised in 900+ reviews.
+
+If it sounds interesting, I'm happy to send a short example made for you. No call needed.
+If not, just reply "no" and I won't write again.
+
+Mat
+XHEART Agency · xheart.si
+END-DRAFT
+
+===== B =====
+FIRST-EMAIL DRAFT (status: draft-ready, NOT sent)
+Subject: AI for cooking school?
+
+Hi Baan Mali Cooking School team,
+
+Have you ever considered bringing AI into your business? We help cooking schools in Thailand with:
+- a fresh website or redesign, in several languages
+- an AI voice agent that answers calls and common questions, 24/7, in English and Thai
+- automatic bookings, confirmations and reminders (LINE, WhatsApp, email)
+- social media content and marketing
+
+For Baan Mali, one idea: an AI voice agent to handle pickup questions and class schedules, freeing up your WhatsApp time for more cooking magic.
+
+If it sounds interesting, I'm happy to send a short example made for you. No call needed.
+If not, just reply "no" and I won't write again.
+
+Mat
+XHEART Agency · xheart.si
+END-DRAFT
+
+===== C =====
+FIRST-EMAIL DRAFT (status: draft-ready, NOT sent)
+Subject: AI for Baan Mali?
+
+Hi Baan Mali team,
+
+Have you ever considered bringing AI into your business? We help cooking schools in Thailand with:
+- a fresh website or redesign, in several languages
+- an AI voice agent that answers calls and common questions, 24/7, in English and Thai
+- automatic bookings, confirmations and reminders (LINE, WhatsApp, email)
+- social media content and marketing
+
+For Baan Mali, one idea: we could add automatic booking confirmations that instantly reply to your contact form, so students get immediate confirmation and can easily book morning or evening classes.
+
+If it sounds interesting, I'm happy to send a short example made for you. No call needed.
+If not, just reply "no" and I won't write again.
+
+Mat
+XHEART Agency · xheart.si
+END-DRAFT
+
+===== D =====
+FIRST-EMAIL DRAFT (status: draft-ready, NOT sent)
+Subject: AI for cooking school?
+
+Hi Baan Mali Cooking School team,
+
+Have you ever considered bringing AI into your business? We help cooking schools in Thailand with:
+- a fresh website or redesign, in several languages
+- an AI voice agent that answers calls and common questions, 24/7, in English and Thai
+- automatic bookings, confirmations and reminders (LINE, WhatsApp, email)
+- social media content and marketing
+
+For Baan Mali, one idea: an AI voice agent that answers booking questions and confirms reservations, freeing up time for your farm visit experiences.
+
+If it sounds interesting, I'm happy to send a short example made for you. No call needed.
+If not, just reply "no" and I won't write again.
+
+Mat
+XHEART Agency · xheart.si
+END-DRAFT
+
+===== E =====
+FIRST-EMAIL DRAFT (status: draft-ready, NOT sent)
+Subject: AI for Baan Mali Cooking School?
+
+Hi Baan Mali Cooking School team,
+
+Have you ever considered bringing AI into your business? We help cooking schools in Thailand with:
+- a fresh website or redesign, in several languages
+- an AI voice agent that answers calls and common questions, 24/7, in English and Thai
+- automatic bookings, confirmations and reminders (LINE, WhatsApp, email)
+- social media content and marketing
+
+For Baan Mali, one idea: an AI voice agent that answers calls around the clock in English and Thai about your morning and evening classes and the free old-city pickup.
+
+If it sounds interesting, I'm happy to send a short example made for you. No call needed.
+If not, just reply "no" and I won't write again.
+
+Mat
+XHEART Agency · xheart.si
+END-DRAFT

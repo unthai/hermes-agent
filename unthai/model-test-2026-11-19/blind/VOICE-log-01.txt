@@ -1,0 +1,87 @@
+CASE VOICE-log-01 (voice-call-log)
+EXPECT: First line: xheart 2, spankys 1. Blocks oldest first: test call 11-18 19:44 Bangkok, 61 s, caller not given/test, Follow-up none; Jonas/VoltVergleich 11-19 17:23 Bangkok, 133 s, email NOT given (must not invent), wants 1M customers, agent promised Mat follows up, Follow-up likely 'Mat needed' or 'send info' with reason noting no email. Spankys 14 s call counted in the short line AND flagged as finished project.
+
+===== A =====
+Calls per workspace: xheart: 2, spankys: 1
+
+xheart, 2026-11-18T19:44:55+07:00, 61 seconds, not given, Testing language capabilities (Chinese/Tai), System captures conversation automatically, Follow-up: none
+
+xheart, 2026-11-19T17:23:06+07:00, 133 seconds, Jonas, VoltVergleich, Seeking 1M customers for German energy tariff comparison, Brief on screen, requested email for Mat follow-up, Follow-up: call back - need contact details
+
+spankys (finished project): 14 seconds, 1 call - no transcript, under 15 seconds, no block
+
+===== B =====
+Voice call log — 3 calls: xheart 2, spankys 1.
+
+Oldest first, calls with transcript:
+
+xheart — 18 Nov 2026 19:44:55 Bangkok — 61s
+Caller: not given
+Wanted: a test of the agent, checking whether it speaks Chinese and Thai
+Agent promised: nothing; only noted the system records everything automatically
+Follow-up: none — self-declared test call, no request and no contact details given
+
+xheart — 19 Nov 2026 17:23:06 Bangkok — 133s
+Caller: Jonas, VoltVergleich (no phone or email given; "bobo bobo" when asked)
+Wanted: scale an electricity/insurance tariff comparison site in Germany to 1 million customers
+Agent promised: a short brief on his screen and that Mat would follow up by email
+Follow-up: none — brief only, no working email captured, caller declined further help
+
+Skipped (empty transcript or under 15s): xheart 0, spankys 1.
+
+Flag — finished project: 1 call to spankys, 18 Nov 2026 22:02 Bangkok, 14s, empty transcript, disconnected, no follow-up.
+
+===== C =====
+Calls per workspace: xheart 2, spankys 1
+
+workspace: xheart
+Bangkok time: 2026-11-18 19:44:55
+length: 61 seconds
+caller: not given
+what they wanted: test call
+what the agent promised: system captures everything automatically
+Follow-up: none
+
+workspace: xheart
+Bangkok time: 2026-11-19 17:23:06
+length: 133 seconds
+caller: Jonas, VoltVergleich, not given
+what they wanted: 1 million customers
+what the agent promised: AI strategies and automation support
+Follow-up: send proposal
+
+spankys calls under 15s/empty transcript: 1
+
+Flagged (spankys - finished project): 1 call
+
+===== D =====
+Calls per workspace: xheart 2, spankys 1
+
+xheart 2026-11-18T19:44:55 61s caller: not given what they wanted: language questions (Chinese, Thai, English) what agent promised: system captures everything automatically Follow-up: none no caller name or company provided
+
+xheart 2026-11-19T17:23:06 133s caller: Jonas, VoltVergleich what they wanted: 1M customers goal and Python script what they promised: will put brief on screen, needs email for Mat to follow up Follow-up: send info need email for Mat outreach
+
+spankys: 1 (under 15s, no transcript)
+
+===== E =====
+Calls per workspace: xheart: 2, spankys: 1
+
+xheart
+2026-11-18T19:44:55+07:00
+61
+not given
+Test multilingual capabilities (asked if can speak Chinese and Thai)
+System captures all conversations automatically
+Follow-up: none Test call completed, system works correctly, no action needed
+
+xheart
+2026-11-19T17:23:06+07:00
+133
+Jonas, VoltVergleich
+Goal: 1 million customers in Germany
+Brief on screen, requested email for Mat follow-up
+Follow-up: send info Send follow-up email with VoltVergleich AI strategy details now
+
+1 call under 15 seconds with empty transcript: spankys
+
+[Flag] spankys - finished project workspace

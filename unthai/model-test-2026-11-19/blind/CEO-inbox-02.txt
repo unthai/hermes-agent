@@ -1,0 +1,75 @@
+CASE CEO-inbox-02 (inbox-triage)
+EXPECT: PayPal look-alike (paypa1 .ru) = Spam not Money; Lena tour request = Reply needed; Omise failed charge THB 2,900 = Money; Peter Lim lead reply 'remove me' = Reply needed (a lead answering us; also unsubscribe signal) — not Cold pitch; lifetime deal = Cold pitch (or Spam); TripAdvisor = FYI. No invented details.
+
+===== A =====
+Mailboxes: info@tours-example.com (read ok), mat@agency-example.com (read ok)
+
+Reply needed:
+info@tours-example.com | Lena H. <lena.h@mail-example.de> | Private tour 4 people Dec 12? | asking availability for private tour Dec 12 for 4 adults, pickup from Riverside hotels
+mat@agency-example.com | Peter Lim <peter@growthlabs-example.sg> | Re: AI for Growth Labs? | replying no thanks, remove from list
+
+Money:
+mat@agency-example.com | Omise <no-reply@omise.co> | Charge failed: chrg_test_5x | THB 2,900 charge failed insufficient funds
+
+FYI: info@tours-example.com | 1 (TripAdvisor review)
+FYI: mat@agency-example.com | 0
+Cold pitch: info@tours-example.com | 0
+Cold pitch: mat@agency-example.com | 1 (Lifetime deal promo)
+Spam: info@tours-example.com | 1 (PayPal account limitation phishing)
+Spam: mat@agency-example.com | 0
+
+===== B =====
+info@tours-example.com (read ok), mat@agency-example.com (read ok)
+
+Reply needed:
+info@ | Lena H. <lena.h@mail-example.de> | Private tour 4 people Dec 12? | Availability, price, pickup options
+mat@ | Peter Lim <peter@growthlabs-example.sg> | Re: AI for Growth Labs? | Confirmation of removal
+
+Money:
+mat@ | Omise <no-reply@omise.co> | Charge failed: chrg_test_5x | Failed charge THB 2,900
+
+FYI: 1 (TripAdvisor review)
+Cold pitch: 1
+Spam: 1
+
+===== C =====
+Mailboxes: info@tours-example.com (read ok), mat@agency-example.com (read ok)
+
+Reply needed:
+- info@ | Lena H. <lena.h@mail-example.de> | Private tour 4 people Dec 12? | Confirm private tour booking for 4 adults, pickup details
+- mat@ | Peter Lim <peter@growthlabs-example.sg> | Re: AI for Growth Labs? | Acknowledge request, process removal from list
+
+Money:
+- mat@ | Omise <no-reply@omise.co> | Charge failed: chrg_test_5x | Failed THB 2,900 payment, card ending 4242
+
+Counts:
+info@: Spam:1, FYI:1, Cold pitch:0
+mat@: Money:1, Cold pitch:1, FYI:0
+
+===== D =====
+Mailboxes checked: info@tours-example.com (ok), mat@agency-example.com (ok); none unreadable.
+
+REPLY NEEDED
+- info@ | Lena H. <lena.h@mail-example.de> | "Private tour 4 people Dec 12?" | Private Old City tour 12 Dec, 4 adults, Riverside pickup?
+- mat@ | Peter Lim <peter@growthlabs-example.sg> | "Re: AI for Growth Labs?" | Remove from list; maybe revisit AI services in Q2.
+
+MONEY
+- mat@ | Omise <no-reply@omise.co> | "Charge failed: chrg_test_5x" | Failed charge THB 2,900 to card 4242: insufficient funds.
+
+FYI: info@ 1; mat@ 0.
+Cold pitch: info@ 0; mat@ 1.
+Spam: info@ 1; mat@ 0.
+
+===== E =====
+info@tours-example.com (read ok), mat@agency-example.com (read ok)
+
+Reply needed:
+info@ | Lena H. <lena.h@mail-example.de> | Private tour 4 people Dec 12? | asking availability for private tour Dec 12, pick-up from Riverside hotels
+mat@ | Peter Lim <peter@growthlabs-example.sg> | Re: AI for Growth Labs? | replying no thanks, remove from list
+
+Money:
+mat@ | Omise <no-reply@omise.co> | Charge failed: chrg_test_5x | THB 2,900 charge failed: insufficient funds
+
+FYI: info@ (1), mat@ (1)
+Cold pitch: info@ (0), mat@ (1)
+Spam: info@ (1), mat@ (0)

@@ -1,0 +1,7 @@
+Calls per workspace: xheart 2, spankys 1
+
+xheart 2026-11-18T19:44:55 61s caller: not given what they wanted: language questions (Chinese, Thai, English) what agent promised: system captures everything automatically Follow-up: none no caller name or company provided
+
+xheart 2026-11-19T17:23:06 133s caller: Jonas, VoltVergleich what they wanted: 1M customers goal and Python script what they promised: will put brief on screen, needs email for Mat to follow up Follow-up: send info need email for Mat outreach
+
+spankys: 1 (under 15s, no transcript)

@@ -1,0 +1,107 @@
+CASE LH-first-04 (lead-hunt-daily (draft step))
+EXPECT: Email in ENGLISH (template is English) even though the site is Thai; {type}=spas or day spas; must not say 'your site is only in Thai'; may suggest a multilingual site framed positively.
+
+===== A =====
+FIRST-EMAIL DRAFT (status: draft-ready, NOT sent)
+Subject: AI for day spa?
+
+Hi Ruen Thai Spa Nimman team,
+
+Have you ever considered bringing AI into your business? We help day spas in Thailand with:
+- a fresh website or redesign, in several languages
+- an AI voice agent that answers calls and common questions, 24/7, in English and Thai
+- automatic bookings, confirmations and reminders (LINE, WhatsApp, email)
+- social media content and marketing
+
+For Ruen Thai Spa, one idea: an English/Thai multilingual booking site that captures online reservations 24/7.
+
+If it sounds interesting, I'm happy to send a short example made for you. No call needed.
+If not, just reply "no" and I won't write again.
+
+Mat
+XHEART Agency · xheart.si
+END-DRAFT
+
+===== B =====
+FIRST-EMAIL DRAFT (status: draft-ready, NOT sent)
+Subject: AI for Ruen Thai Spa Nimman?
+
+Hi Ruen Thai Spa Nimman team,
+
+Have you ever considered bringing AI into your business? We help day spas in Thailand with:
+- a fresh website or redesign, in several languages
+- an AI voice agent that answers calls and common questions, 24/7, in English and Thai
+- automatic bookings, confirmations and reminders (LINE, WhatsApp, email)
+- social media content and marketing
+
+For Ruen Thai Spa Nimman, one idea: an AI voice agent that answers calls and common questions in English and Thai after hours, helping visitors check availability and book your signature herbal compress treatment 24/7.
+
+If it sounds interesting, I'm happy to send a short example made for you. No call needed.
+If not, just reply "no" and I won't write again.
+
+Mat
+XHEART Agency · xheart.si
+END-DAFT
+
+===== C =====
+FIRST-EMAIL DRAFT (status: draft-ready, NOT sent)
+Subject: AI for Ruen Thai Spa Nimman?
+
+Hi Ruen Thai Spa Nimman team,
+
+Have you ever considered bringing AI into your business? We help day spas in Thailand with:
+- a fresh website or redesign, in several languages
+- an AI voice agent that answers calls and common questions, 24/7, in English and Thai
+- automatic bookings, confirmations and reminders (LINE, WhatsApp, email)
+- social media content and marketing
+
+For Ruen Thai Spa Nimman, one idea: an AI voice agent that answers questions about your herbal compress signature treatment and your 60-180 minute packages in English and Thai, so visitors can ask and book 24/7.
+
+If it sounds interesting, I'm happy to send a short example made for you. No call needed.
+If not, just reply "no" and I won't write again.
+
+Mat
+XHEART Agency · xheart.si
+END-DRAFT
+
+===== D =====
+FIRST-EMAIL DRAFT (status: draft-ready, NOT sent)
+Subject: AI for Ruen Thai Spa Nimman?
+
+Hi Ruen Thai Spa Nimman team,
+
+Have you ever considered bringing AI into your business? We help day spas in Thailand with:
+- a fresh website or redesign, in several languages
+- an AI voice agent that answers calls and common questions, 24/7, in English and Thai
+- automatic bookings, confirmations and reminders (LINE, WhatsApp, email)
+- social media content and marketing
+
+For Ruen Thai Spa, one idea: their signature herbal compress treatment could be showcased on a multilingual website, helping visitors see what makes them special.
+
+If it sounds interesting, I'm happy to send a short example made for you. No call needed.
+If not, just reply "no" and I won't write again.
+
+Mat
+XHEART Agency · xheart.si
+END-DRAFT
+
+===== E =====
+FIRST-EMAIL DRAFT (status: draft-ready, NOT sent)
+Subject: AI for day spa?
+
+Hi Ruen Thai Spa Nimman team,
+
+Have you ever considered bringing AI into your business? We help day spas in Thailand with:
+- a fresh website or redesign, in several languages
+- an AI voice agent that answers calls and common questions, 24/7, in English and Thai
+- automatic bookings, confirmations and reminders (LINE, WhatsApp, email)
+- social media content and marketing
+
+For Ruen Thai Spa Nimman, one idea: an English/Thai multilingual booking site that captures online reservations and sends automated reminders.
+
+If it sounds interesting, I'm happy to send a short example made for you. No call needed.
+If not, just reply "no" and I won't write again.
+
+Mat
+XHEART Agency · xheart.si
+END-DRAFT

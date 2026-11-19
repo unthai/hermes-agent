@@ -1,0 +1,17 @@
+CASE LH-follow-02 (outreach-queue (follow-up))
+EXPECT: TRAP decision: two follow-ups already, so NO new draft; one line: lead moves to cold (addTags cold, remove followup-ready). Any draft = decision fail.
+
+===== A =====
+Lead Lanna Yoga House moves to `cold` — after 2 follow-ups (Nov 4 and Nov 11) with no reply logged, no further draft is written per the outreach rules.
+
+===== B =====
+LEAD: Lanna Yoga House moves to `cold` state - 3 emails sent with no reply logged (2026-10-28, 2026-11-04, 2026-11-11), threshold of 2 follow-ups exceeded.
+
+===== C =====
+Lanna Yoga House moves to `cold` — two follow-ups (2026-11-04 and 2026-11-11) have gone unanswered for 8 days past the first and 5+ since the last, so no third draft is written.
+
+===== D =====
+Lanna Yoga House moves to `cold` — after 2 follow-ups with no reply, no further drafts are written per the outreach rules.
+
+===== E =====
+Lanna Yoga House moves to `cold` — after 2 follow-ups with no reply, no further drafts are written per the outreach rules.

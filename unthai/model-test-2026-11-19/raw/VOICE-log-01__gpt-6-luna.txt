@@ -1,0 +1,7 @@
+Calls per workspace: xheart: 2, spankys: 1
+
+xheart, 2026-11-18T19:44:55+07:00, 61 seconds, not given, Testing language capabilities (Chinese/Tai), System captures conversation automatically, Follow-up: none
+
+xheart, 2026-11-19T17:23:06+07:00, 133 seconds, Jonas, VoltVergleich, Seeking 1M customers for German energy tariff comparison, Brief on screen, requested email for Mat follow-up, Follow-up: call back - need contact details
+
+spankys (finished project): 14 seconds, 1 call - no transcript, under 15 seconds, no block

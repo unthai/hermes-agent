@@ -1,0 +1,19 @@
+New / changed / cancelled:
+- B-1041: Airbnb, Pool Villa, 2026-11-20 to 2026-11-23, Guest A. (invented), 21,600 THB (new)
+- B-1042: Booking.com, Pool Villa, 2026-11-22 to 2026-11-24, Guest B. (invented), 15,800 THB (new)
+- B-1039: Direct, Loft 2BR, 2026-11-26 to 2026-11-28, Guest C. (invented), missing amount (new)
+- B-1033: Airbnb, Garden Studio, 2026-11-21 to 2026-11-24, Guest D. (invented), 6,900 THB (cancelled)
+
+Next 48 h:
+- Garden Studio: checkout 2026-11-20 (B-1030)
+- Pool Villa: checkin 2026-11-20 (B-1041)
+- Loft 2BR: checkin 2026-11-19, checkout 2026-11-21 (B-1036)
+
+Empty nights (next 14 days):
+- Garden Studio: 2026-11-21 to 2026-11-22
+- Pool Villa: 2026-11-21, 2026-11-24 to 2026-11-25, 2026-11-25
+- Loft 2BR: 2026-11-22 to 2026-11-25, 2026-11-29 to 2026-12-03
+
+Looks wrong:
+- B-1039: missing amount
+- B-1044: booking without a room

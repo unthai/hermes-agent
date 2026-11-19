@@ -1,0 +1,13 @@
+Before anything else, read the KH wiki page `Projects/hermes/targets`.
+Your work is the rows of its `## Agent tasks` table where Agent = `leadhunter` and Job = `outreach-queue`: work only for rows with Active = yes and Per run above 0, in the Priority order of the Targets table, and produce at most that row's Per run for its project (the hard caps on the page also apply).
+Skip a project whose Targets row says Active = no.
+Use that project's own section on the page for niches, ICP and cities.
+If no row qualifies, reply 'Nothing to do: no active agent tasks.' and stop.
+Your final reply is NOT sent to anyone: it is saved and collected into Mat's 06:30 CEO morning report, so make it a compact numbered digest with XENIA lead ids, then the 5-line summary.
+Daily outreach queue.
+Never send, email or contact anyone: Mat approves and sends.
+1) `leads_list` with `tag: "draft-ready"`, and `leads_search` for `influencer` leads without a draft.
+2) Write a short first message on each influencer lead without a draft (angle from its notes and its project on the targets page) with `leads_update`, then `addTags: ["draft-ready"]`; respect the page's outreach-drafts-per-day number per project.
+3) `leads_list` with `tag: "contacted"`: for each with no reply logged for 5+ days, one polite follow-up draft and `addTags: ["followup-ready"]`; after 2 follow-ups with no reply `addTags: ["cold"], removeTags: ["followup-ready"]`.
+All states are real tags set through `addTags` / `removeTags`, never text in notes.
+4) Reply with the full waiting list, oldest first, grouped by project: number, company or handle, lead id, channel, subject or first line, `new` / `follow-up`; then the total waiting.

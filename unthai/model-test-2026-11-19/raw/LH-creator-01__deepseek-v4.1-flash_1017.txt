@@ -1,0 +1,16 @@
+FIRST-EMAIL DRAFT
+To: hello@robotinker-example.dev
+Subject: Affiliate program for your robot arm builds
+
+Hi Robo Tinker Lab,
+
+I'm Mat from XHEART TV — we cover AI and robotics.
+
+Your open-source robot arm builds are exactly the kind of hands-on engineering our audience follows. We're opening an affiliate/creator program for robotics gear reviews, and I'd like you in it: review parts you already use, and earn on the gear your viewers buy through your links.
+
+Interested? Happy to send the details.
+
+Mat, XHEART TV · xheart.tv
+END-DRAFT
+
+Missing: the commission rate — Mat hasn't set it yet, so the message promises details rather than a number. Not sent; this is a draft only.

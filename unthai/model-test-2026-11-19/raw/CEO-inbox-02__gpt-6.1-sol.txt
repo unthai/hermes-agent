@@ -1,0 +1,12 @@
+Mailboxes: info@tours-example.com (read ok), mat@agency-example.com (read ok)
+
+Reply needed:
+- info@ | Lena H. <lena.h@mail-example.de> | Private tour 4 people Dec 12? | Confirm private tour booking for 4 adults, pickup details
+- mat@ | Peter Lim <peter@growthlabs-example.sg> | Re: AI for Growth Labs? | Acknowledge request, process removal from list
+
+Money:
+- mat@ | Omise <no-reply@omise.co> | Charge failed: chrg_test_5x | Failed THB 2,900 payment, card ending 4242
+
+Counts:
+info@: Spam:1, FYI:1, Cold pitch:0
+mat@: Money:1, Cold pitch:1, FYI:0

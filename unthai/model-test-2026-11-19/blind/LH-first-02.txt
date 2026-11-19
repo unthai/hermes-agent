@@ -1,0 +1,107 @@
+CASE LH-first-02 (lead-hunt-daily (draft step))
+EXPECT: {type}=dental clinics; personal line names one service (voice agent or bookings), built on 7-days/3 languages; must NOT mention busy lines, reviews complaining, missing calendar. No invented price or statistic.
+
+===== A =====
+FIRST-EMAIL DRAFT (status: draft-ready, NOT sent)
+Subject: AI for Smile Avenue Dental?
+
+Hi Smile Avenue Dental team,
+
+Have you ever considered bringing AI into your business? We help dental clinics in Thailand with:
+- a fresh website or redesign, in several languages
+- an AI voice agent that answers calls and common questions, 24/7, in English and Thai
+- automatic bookings, confirmations and reminders (LINE, WhatsApp, email)
+- social media content and marketing
+
+For Smile Avenue Dental, one idea: an AI voice agent that takes calls after hours so patients can book appointments even when phone lines are busy at lunchtime.
+
+If it sounds interesting, I'm happy to send a short example made for you. No call needed.
+If not, just reply "no" and I won't write again.
+
+Mat
+XHEART Agency · xheart.si
+END-DRAFT
+
+===== B =====
+FIRST-EMAIL DRAFT (status: draft-ready, NOT sent)
+Subject: AI for dental clinic?
+
+Hi Smile Avenue Dental team,
+
+Have you ever considered bringing AI into your business? We help dental clinics in Thailand with:
+- a fresh website or redesign, in several languages
+- an AI voice agent that answers calls and common questions, 24/7, in English and Thai
+- automatic bookings, confirmations and reminders (LINE, WhatsApp, email)
+- social media content and marketing
+
+For Smile Avenue Dental, one idea: an AI voice agent can handle LINE bookings after hours, ensuring no appointments are missed when your lines are busy.
+
+If it sounds interesting, I'm happy to send a short example made for you. No call needed.
+If not, just reply "no" and I won't write again.
+
+Mat
+XHEART Agency · xheart.si
+END-DRAFT
+
+===== C =====
+FIRST-EMAIL DRAFT (status: draft-ready, NOT sent)
+Subject: AI for Smile Avenue Dental?
+
+Hi Smile Avenue Dental team,
+
+Have you ever considered bringing AI into your business? We help dental clinics in Thailand with:
+- a fresh website or redesign, in several languages
+- an AI voice agent that answers calls and common questions, 24/7, in English and Thai
+- automatic bookings, confirmations and reminders (LINE, WhatsApp, email)
+- social media content and marketing
+
+For Dr. Thanasorn at Smile Avenue Dental, one idea: an AI voice agent that answers calls outside lunch hours, keeping your 7-day schedule fully booked.
+
+If it sounds interesting, I'm happy to send a short example made for you. No call needed.
+If not, just reply "no" and I won't write again.
+
+Mat
+XHEART Agency · xheart.si
+END-DRAFT
+
+===== D =====
+FIRST-EMAIL DRAFT (status: draft-ready, NOT sent)
+Subject: AI for Smile Avenue Dental?
+
+Hi Smile Avenue Dental team,
+
+Have you ever considered bringing AI into your business? We help dental clinics in Thailand with:
+- a fresh website or redesign, in several languages
+- an AI voice agent that answers calls and common questions, 24/7, in English and Thai
+- automatic bookings, confirmations and reminders (LINE, WhatsApp, email)
+- social media content and marketing
+
+For Smile Avenue Dental, one idea: an AI voice agent that answers calls 24/7, freeing your team to focus on patient care instead of busy phone lines.
+
+If it sounds interesting, I'm happy to send a short example made for you. No call needed.
+If not, just reply "no" and I won't write again.
+
+Mat
+XHEART Agency · xheart.si
+END-DRAFT
+
+===== E =====
+FIRST-EMAIL DRAFT (status: draft-ready, NOT sent)
+Subject: AI for Smile Avenue Dental?
+
+Hi Smile Avenue Dental team,
+
+Have you ever considered bringing AI into your business? We help dental clinics in Thailand with:
+- a fresh website or redesign, in several languages
+- an AI voice agent that answers calls and common questions, 24/7, in English and Thai
+- automatic bookings, confirmations and reminders (LINE, WhatsApp, email)
+- social media content and marketing
+
+For Smile Avenue, one idea: the LINE-to-book button your patients already use could be paired with automatic confirmations and reminders in English, Thai and Japanese.
+
+If it sounds interesting, I'm happy to send a short example made for you. No call needed.
+If not, just reply "no" and I won't write again.
+
+Mat
+XHEART Agency · xheart.si
+END-DRAFT

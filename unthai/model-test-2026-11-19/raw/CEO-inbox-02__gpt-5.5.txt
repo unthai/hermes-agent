@@ -1,0 +1,12 @@
+info@tours-example.com (read ok), mat@agency-example.com (read ok)
+
+Reply needed:
+info@ | Lena H. <lena.h@mail-example.de> | Private tour 4 people Dec 12? | Availability, price, pickup options
+mat@ | Peter Lim <peter@growthlabs-example.sg> | Re: AI for Growth Labs? | Confirmation of removal
+
+Money:
+mat@ | Omise <no-reply@omise.co> | Charge failed: chrg_test_5x | Failed charge THB 2,900
+
+FYI: 1 (TripAdvisor review)
+Cold pitch: 1
+Spam: 1

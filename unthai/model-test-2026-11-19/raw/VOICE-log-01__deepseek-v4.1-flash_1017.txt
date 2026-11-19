@@ -1,0 +1,19 @@
+Voice call log — 3 calls: xheart 2, spankys 1.
+
+Oldest first, calls with transcript:
+
+xheart — 18 Nov 2026 19:44:55 Bangkok — 61s
+Caller: not given
+Wanted: a test of the agent, checking whether it speaks Chinese and Thai
+Agent promised: nothing; only noted the system records everything automatically
+Follow-up: none — self-declared test call, no request and no contact details given
+
+xheart — 19 Nov 2026 17:23:06 Bangkok — 133s
+Caller: Jonas, VoltVergleich (no phone or email given; "bobo bobo" when asked)
+Wanted: scale an electricity/insurance tariff comparison site in Germany to 1 million customers
+Agent promised: a short brief on his screen and that Mat would follow up by email
+Follow-up: none — brief only, no working email captured, caller declined further help
+
+Skipped (empty transcript or under 15s): xheart 0, spankys 1.
+
+Flag — finished project: 1 call to spankys, 18 Nov 2026 22:02 Bangkok, 14s, empty transcript, disconnected, no follow-up.

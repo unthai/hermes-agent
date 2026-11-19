@@ -1,0 +1,29 @@
+**OVERNIGHT**
+- XHEART: 7/10 leads, 7/15 drafts
+- UNTHAI: 0/0 leads, 0/5 drafts
+- HTMMW: no run
+
+**WAITING FOR YOU**
+Total: 205 waiting, 200+ cap reached
+1. Golden Teak Restaurant (lead_a1) - "Hi Golden Teak Restaurant team,"
+2. Pattaya Bay Divers (lead_a2) - "Hi Pattaya Bay Divers team,"
+3. Riverside Kids Academy (lead_a4) - "Hi Riverside Kids Academy team,"
+
+**INBOX**
+- Narin Clinic lead: price + Thai voice needed
+- Tom R.: late arrival 1am
+- Stripe payout: THB 18,450
+- Hosting invoice: USD 42 due 25 Nov
+
+**MAT NEEDED**
+- Friends Station (ce/social-daily)
+- KADO suppliers (no run)
+- XHEART sources (ce/social-daily)
+
+**FAILING**
+- unthai/herald-tick: 3 failures (HTTP 401)
+
+**TODAY**
+1. XHEART leads: push to 10 daily target
+2. Approval queue: clear 205 drafts
+3. Fix unthai/herald-tick auth issue

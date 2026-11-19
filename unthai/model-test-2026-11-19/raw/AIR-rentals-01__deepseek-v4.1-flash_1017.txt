@@ -1,0 +1,23 @@
+RENTALS DAILY — 2026-11-19 (Bangkok), read-only
+
+NEW / CHANGED / CANCELLED (24 h)
+new B-1041 Airbnb · Pool Villa · 20–23 Nov · Guest A. · 21,600 THB
+new B-1042 Booking.com · Pool Villa · 22–24 Nov · Guest B. · 15,800 THB
+new B-1039 Direct · Loft 2BR · 26–28 Nov · Guest C. · amount missing
+cancelled B-1033 Airbnb · Garden Studio · 21–24 Nov · Guest D. · 6,900 THB
+
+NEXT 48 H (19–21 Nov)
+Garden Studio: out 20 Nov (B-1030); no arrivals
+Pool Villa: in 20 Nov (B-1041); no departures
+Loft 2BR: in 19 Nov (B-1036); out 21 Nov (window edge)
+
+EMPTY NIGHTS (19 Nov–2 Dec, 14 nights)
+Garden Studio: 20 Nov–2 Dec (13)
+Pool Villa: 19 Nov (1); 24 Nov–2 Dec (9)
+Loft 2BR: 21–25 Nov (5); 28 Nov–2 Dec (5)
+
+LOOKS WRONG
+Pool Villa double-booked 22 Nov: B-1041 (20–23) overlaps B-1042 (22–24)
+B-1044 Direct 29–30 Nov, 3,000 THB — no room assigned
+B-1039 amount missing
+B-1033 cancellation leaves Garden Studio 21–24 Nov open

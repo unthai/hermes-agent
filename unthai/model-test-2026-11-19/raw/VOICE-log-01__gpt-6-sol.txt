@@ -1,0 +1,21 @@
+Calls per workspace: xheart: 2, spankys: 1
+
+xheart
+2026-11-18T19:44:55+07:00
+61
+not given
+Test multilingual capabilities (asked if can speak Chinese and Thai)
+System captures all conversations automatically
+Follow-up: none Test call completed, system works correctly, no action needed
+
+xheart
+2026-11-19T17:23:06+07:00
+133
+Jonas, VoltVergleich
+Goal: 1 million customers in Germany
+Brief on screen, requested email for Mat follow-up
+Follow-up: send info Send follow-up email with VoltVergleich AI strategy details now
+
+1 call under 15 seconds with empty transcript: spankys
+
+[Flag] spankys - finished project workspace

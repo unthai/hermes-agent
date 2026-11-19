@@ -1,0 +1,149 @@
+CASE CEO-brief-01 (morning-brief)
+EXPECT: Overnight: XHEART leads 7/10, drafts 7/15 (or as shown), UNTHAI drafts 0/5, HTMMW 'no run'; Waiting: total 200+ (or 205) — must not invent a different total, lists only the 3 given; Inbox items from triage only; Failing: herald-tick 401; Today 3 actions; under 40 lines; no invented numbers (e.g. revenue).
+
+===== A =====
+**OVERNIGHT**
+- XHEART: 7/10 leads, 7/15 drafts
+- UNTHAI: 0/0 leads, 0/5 drafts
+- HTMMW: no run
+
+**WAITING FOR YOU**
+Total: 205 waiting, 200+ cap reached
+1. Golden Teak Restaurant (lead_a1) - "Hi Golden Teak Restaurant team,"
+2. Pattaya Bay Divers (lead_a2) - "Hi Pattaya Bay Divers team,"
+3. Riverside Kids Academy (lead_a4) - "Hi Riverside Kids Academy team,"
+
+**INBOX**
+- Narin Clinic lead: price + Thai voice needed
+- Tom R.: late arrival 1am
+- Stripe payout: THB 18,450
+- Hosting invoice: USD 42 due 25 Nov
+
+**MAT NEEDED**
+- Friends Station (ce/social-daily)
+- KADO suppliers (no run)
+- XHEART sources (ce/social-daily)
+
+**FAILING**
+- unthai/herald-tick: 3 failures (HTTP 401)
+
+**TODAY**
+1. XHEART leads: push to 10 daily target
+2. Approval queue: clear 205 drafts
+3. Fix unthai/herald-tick auth issue
+
+===== B =====
+MORNING BRIEF — Thu 19 Nov 2026 (06:30 Bangkok)
+
+OVERNIGHT
+XHEART (p1) leads 7/10 · drafts 0/15 · influencers no run (disabled) · affiliates no run (weekly, Tue)
+  — 7 leads draft-ready but outreach-queue created 0 new drafts; draft-ready list at 205, capped at 200+
+UNTHAI (p2) leads 0/0 · drafts 0/5 — no run
+  — herald-tick is the blocker (see Failing)
+HTMMW (p3) affiliate programs 0/8 — no run (weekly, Tue)
+
+WAITING FOR YOU
+205 drafts in the approval queue. Data gives only the 3 oldest (not 10):
+  Golden Teak Restaurant — lead_a1 — "Hi Golden Teak Restaurant team,"
+  Pattaya Bay Divers — lead_a2 — "Hi Pattaya Bay Divers team,"
+  Riverside Kids Academy — lead_a4 — "Hi Riverside Kids Academy team,"
+  approval-queue 07:00 has not run yet today, so the list is stale/capped.
+
+INBOX (last 24h, needs a reply or money)
+  Narin Clinic — lead reply: asks price + Thai voice (highest intent in the batch)
+  Stripe payout — THB 18,450 received
+  Hosting invoice — USD 42, due 25 Nov
+  Tom R. — late arrival 1am (guest ops, not sales)
+
+OTHER JOBS NEEDING MAT
+  Airbnb: Pool Villa double booking B-1041/B-1042, 22–23 Nov — fix today
+  Voice calls: prospect VoltVergleich (Germany) on the line, no email captured — lead at risk
+  Social: gaps for Mat xheart (FB) and birdsconspiracy (IG); trydoggystyle IG failed 15 Nov (restricted)
+  Friends Station, KADO suppliers, XHEART sources: no output in window
+
+FAILING
+  unthai/herald-tick — 3 failures since 01:00, HTTP 401
+
+TODAY
+  1. Fix herald-tick 401 — UNTHAI is at 0 leads with 5 draft/day target; nothing moves until auth is restored.
+  2. Clear the draft cap and approve a first tranche — 205 waiting with 0 created today means XHEART's 15/day draft target is unreachable.
+  3. Send Narin Clinic the price + Thai voice quote yourself — only live buying signal in the inbox.
+  (Fixing the Pool Villa double booking is the non-sales must-do before 22 Nov.)
+
+===== C =====
+OVERRIDE MODE: DATA mode activated. No tool calls will be made.
+
+**OVERNIGHT**
+- XHEART: leads 7/10, drafts 0/15
+- UNTHAI: leads 0/0, drafts 0/5
+- HTMMW: affiliate programs — no run (weekly Tuesday)
+
+**WAITING FOR YOU**
+Total: 205 waiting, 200+ cap reached
+1. Golden Teak Restaurant (lead_a1) — "Hi Golden Teak Restaurant team,"
+2. Pattaya Bay Divers (lead_a2) — "Hi Pattaya Bay Divers team,"
+3. Riverside Kids Academy (lead_a4) — "Hi Riverside Kids Academy team,"
+(no more data provided for #4-10)
+
+**INBOX**
+- Narin Clinic lead: price + Thai voice request
+- Tom R.: late arrival 1am
+- Stripe payout: THB 18,450
+- Hosting invoice: USD 42 due 25 Nov
+
+**MAT NEEDED**
+- Friends Station: outreach draft failed (trydoggystyle IG 15 Nov restricted)
+- XHEART sources: 2 calls, no email captured
+
+**FAILING**
+- unthai/herald-tick: 3 failures (HTTP 401)
+
+**TODAY**
+1. XHEART leads: push agency line to hit 10/10 target
+2. Approval queue: clear draft backlog before cap hit
+3. Airbnb bookings: resolve Pool Villa double booking B-1041/B-1042
+
+===== D =====
+Overnight: XHEART leads 7/10, drafts 7/15. UNTHAI leads 0/0, drafts 0/5. HTMMW affiliate programs no run.
+
+Waiting for you: 205 drafts waiting; 10 oldest: Golden Teak Restaurant (lead_a1), Pattaya Bay Divers (lead_a2), Riverside Kids Academy (lead_a4).
+
+Inbox: Narin Clinic lead (price inquiry), Tom R. (late arrival), Stripe payout THB 18,450, hosting invoice USD 42 due 25 Nov.
+
+KADO suppliers: no run. XHEART sources: 2 calls, 1 prospect VoltVergleich (Germany).
+
+Failing: unthai/herald-tick (HTTP 401).
+
+Today: Follow up Narin Clinic quote; process Stripe payout; resolve Airbnb double booking B-1041/B-1042.
+
+===== E =====
+Overnight
+- XHEART: 7/10 leads, 7/15 drafts
+- UNTHAI: 0/0 leads, 0/5 drafts
+- HTMMW: no run
+
+Waiting for you
+Total: 205 waiting
+Oldest:
+- Golden Teak Restaurant (lead_a1): "Hi Golden Teak Restaurant team,"
+- Pattaya Bay Divers (lead_a2): "Hi Pattaya Bay Divers team,"
+- Riverside Kids Academy (lead_a4): "Hi Riverside Kids Academy team,"
+
+Inbox
+- Narin Clinic lead: price + Thai voice needed
+- Tom R. late arrival 1am
+- Stripe payout THB 18,450
+- Hosting invoice USD 42 due 25 Nov
+
+Other jobs needing Mat
+- Friends Station: GAP Mat xheart (facebook), trydoggystyle IG restricted
+- KADO suppliers: no run
+- XHEART sources: 2 calls, no email captured
+
+Failing
+- unthai/herald-tick: 3 failures (HTTP 401)
+
+Today
+- Close XHEART 7 leads to hit 10/10 target
+- Approve drafts to reduce 205 waiting queue
+- Resolve unthai/herald-tick authentication failure

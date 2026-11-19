@@ -1,0 +1,21 @@
+Calls per workspace: xheart 2, spankys 1
+
+workspace: xheart
+Bangkok time: 2026-11-18 19:44:55
+length: 61 seconds
+caller: not given
+what they wanted: test call
+what the agent promised: system captures everything automatically
+Follow-up: none
+
+workspace: xheart
+Bangkok time: 2026-11-19 17:23:06
+length: 133 seconds
+caller: Jonas, VoltVergleich, not given
+what they wanted: 1 million customers
+what the agent promised: AI strategies and automation support
+Follow-up: send proposal
+
+spankys calls under 15s/empty transcript: 1
+
+Flagged (spankys - finished project): 1 call

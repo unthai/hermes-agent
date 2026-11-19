@@ -1,0 +1,19 @@
+CASE CE-social-02 (social-daily)
+EXPECT: TRAP: fetched_at 04:20Z is 8h20m old (>3 h) -> say exactly that the file is older than 3 hours and stop; no report sections.
+
+===== A =====
+The file's `fetched_at` (2026-11-19T04:20:01Z) is older than 3 hours (now is 2026-11-19T12:40Z). Cannot generate report.
+
+===== B =====
+The file `/opt/data/feeds/social-blotato.json` was last fetched at 2026-11-19T04:20:01Z, which is older than 3 hours compared to the current time 2026-11-19T12:40Z. Stopping report.
+
+===== C =====
+The `fetched_at` timestamp (2026-11-19T04:20:01Z) is older than 3 hours from the current time (2026-11-19T12:40Z). Cannot generate report.
+
+===== D =====
+Social report: not produced.
+
+/opt/data/feeds/social-blotato.json is stale: fetched_at 2026-11-19T04:20:01Z, which is older than 3 hours (now 2026-11-19T12:40Z — 8h20m old). Per job rule, stopping without a report; no coverage, failed, comments or DM sections are reported from this data.
+
+===== E =====
+fetched_at is older than 3 hours

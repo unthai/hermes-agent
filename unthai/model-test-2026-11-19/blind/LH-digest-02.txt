@@ -1,0 +1,17 @@
+CASE LH-digest-02 (approval-queue)
+EXPECT: Reply exactly [SILENT] and nothing else.
+
+===== A =====
+⚠️ The model returned only a silence marker for a message that needed a reply. Try again or rephrase.
+
+===== B =====
+⚠️ The model returned only a silence marker for a message that needed a reply. Try again or rephrase.
+
+===== C =====
+⚠️ The model returned only a silence marker for a message that needed a reply. Try again or rephrase.
+
+===== D =====
+⚠️ The model returned only a silence marker for a message that needed a reply. Try again or rephrase.
+
+===== E =====
+⚠️ The model returned only a silence marker for a message that needed a reply. Try again or rephrase.

@@ -1,0 +1,19 @@
+1) New / changed / cancelled:
+- B-1041: Airbnb, Pool Villa, 20-23 Nov, Guest A., 21,600 THB (new)
+- B-1042: Booking.com, Pool Villa, 22-24 Nov, Guest B., 15,800 THB (new)
+- B-1039: Direct, Loft 2BR, 26-28 Nov, Guest C., no amount (new)
+- B-1033: Airbnb, Garden Studio, 21-24 Nov, Guest D., 6,900 THB (cancelled)
+
+2) Next 48 h:
+- Garden Studio: checkout 20 Nov (B-1030)
+- Pool Villa: checkin 20 Nov (B-1041)
+- Loft 2BR: checkin 19 Nov, checkout 21 Nov (B-1036)
+
+3) Empty nights (next 14 days):
+- Garden Studio: 21-24 Nov
+- Pool Villa: 24-22 Nov
+- Loft 2BR: 21-26 Nov, 28-29 Nov
+
+4) Looks wrong:
+- B-1039: missing amount_thb
+- B-1044: no room assigned

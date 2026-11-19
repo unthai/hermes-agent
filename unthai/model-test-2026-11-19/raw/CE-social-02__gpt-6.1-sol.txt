@@ -1,0 +1,1 @@
+The `fetched_at` timestamp (2026-11-19T04:20:01Z) is older than 3 hours from the current time (2026-11-19T12:40Z). Cannot generate report.

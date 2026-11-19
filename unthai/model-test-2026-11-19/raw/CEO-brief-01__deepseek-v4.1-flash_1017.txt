@@ -1,0 +1,36 @@
+MORNING BRIEF — Thu 19 Nov 2026 (06:30 Bangkok)
+
+OVERNIGHT
+XHEART (p1) leads 7/10 · drafts 0/15 · influencers no run (disabled) · affiliates no run (weekly, Tue)
+  — 7 leads draft-ready but outreach-queue created 0 new drafts; draft-ready list at 205, capped at 200+
+UNTHAI (p2) leads 0/0 · drafts 0/5 — no run
+  — herald-tick is the blocker (see Failing)
+HTMMW (p3) affiliate programs 0/8 — no run (weekly, Tue)
+
+WAITING FOR YOU
+205 drafts in the approval queue. Data gives only the 3 oldest (not 10):
+  Golden Teak Restaurant — lead_a1 — "Hi Golden Teak Restaurant team,"
+  Pattaya Bay Divers — lead_a2 — "Hi Pattaya Bay Divers team,"
+  Riverside Kids Academy — lead_a4 — "Hi Riverside Kids Academy team,"
+  approval-queue 07:00 has not run yet today, so the list is stale/capped.
+
+INBOX (last 24h, needs a reply or money)
+  Narin Clinic — lead reply: asks price + Thai voice (highest intent in the batch)
+  Stripe payout — THB 18,450 received
+  Hosting invoice — USD 42, due 25 Nov
+  Tom R. — late arrival 1am (guest ops, not sales)
+
+OTHER JOBS NEEDING MAT
+  Airbnb: Pool Villa double booking B-1041/B-1042, 22–23 Nov — fix today
+  Voice calls: prospect VoltVergleich (Germany) on the line, no email captured — lead at risk
+  Social: gaps for Mat xheart (FB) and birdsconspiracy (IG); trydoggystyle IG failed 15 Nov (restricted)
+  Friends Station, KADO suppliers, XHEART sources: no output in window
+
+FAILING
+  unthai/herald-tick — 3 failures since 01:00, HTTP 401
+
+TODAY
+  1. Fix herald-tick 401 — UNTHAI is at 0 leads with 5 draft/day target; nothing moves until auth is restored.
+  2. Clear the draft cap and approve a first tranche — 205 waiting with 0 created today means XHEART's 15/day draft target is unreachable.
+  3. Send Narin Clinic the price + Thai voice quote yourself — only live buying signal in the inbox.
+  (Fixing the Pool Villa double booking is the non-sales must-do before 22 Nov.)

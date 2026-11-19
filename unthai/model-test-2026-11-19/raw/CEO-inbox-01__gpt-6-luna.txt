@@ -1,0 +1,12 @@
+hello@agency-example.com (ok), rooms@stay-example.com (ok), shop@store-example.com (IMAP login failed)
+
+Reply needed:
+hello@ | Narin P. <narin@clinic-example.co.th> | Re: AI for Narin Clinic? | Thai/voices/calendar/cost?
+rooms@ | Tom R. <tom.r@mail-example.com> | Late arrival tonight | Arrives 23:30, need entry at 1am?
+
+Money:
+hello@ | Accounts <billing@hosting-example.com> | Invoice INV-2291 due 2026-11-25 | USD42 VPS invoice due
+
+FYI: hello@1, rooms@1
+Cold pitch: hello@2
+Spam: rooms@1

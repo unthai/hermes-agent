@@ -1,0 +1,21 @@
+Daily rentals report – 2026-11-19 (Bangkok)
+
+1) New / changed / cancelled:
+- B-1041: Airbnk, Pool Villa, 20-23Nov, Guest A., 21,600 THB (new)
+- B-1042: Booking.com, Pool Villa, 22-24Nov, Guest B., 15,800 THB (new)
+- B-1039: Direct, Loft 2BR, 26-28Nov, Guest C., no amount (new)
+- B-1033: Airbnb, Garden Studio, 21-24Nov, Guest D., 6,900 THB (cancelled)
+
+2) Next 48 h:
+Nov 20: Garden Studio checkout (B-1030), Pool Villa checkin (B-1041)
+Nov 19: Loft 2BR checkin (B-1036)
+Nov 21: Loft 2BR checkout (B-1036)
+
+3) Empty nights (14d):
+Garden Studio: 20Nov–03Dec
+Pool Villa: 19Nov, 25-03Dec
+Loft 2BR: 21-25Nov, 28-03Dec
+
+4) Looks wrong:
+- B-1044: Direct booking, 29-30Nov, no room assigned
+- B-1039: Loft 2BR new booking, amount missing

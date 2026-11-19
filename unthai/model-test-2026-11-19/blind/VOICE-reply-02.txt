@@ -1,0 +1,78 @@
+CASE VOICE-reply-02 (voice follow-up email draft)
+EXPECT: Email in THAI (polite, ค่ะ/ครับ consistent with male sender 'ครับ'); To pim@rakphiw-example.co.th; confirms Thai+English 24/7 and calendar booking; no price number; offers 15-min call; no invented clinic facts.
+
+===== A =====
+To: pim@rakphiw-example.co.th
+Subject: Phone Answering System for Rak Phiw Clinic
+
+Dear Pim,
+
+Thank you for your call today. I can confirm we provide:
+
+- 24/7 Thai and English bilingual answering
+- Appointment booking to Google Calendar
+- Pricing based on call volume (requires a 15-minute call to finalize)
+
+Please let me know a convenient time for that consultation call.
+
+Best regards,
+Mat
+XHEART Agency · xheart.si
+
+===== B =====
+To: pim@rakphiw-example.co.th  
+Subject: Phone Answering System for Rak Phiw Clinic  
+
+Hi Pim,  
+
+Thank you for reaching out about an automatic phone answering system. I can confirm we provide a Thai/English IVR that operates 24/7 and books appointments directly into Google Calendar.  
+
+I’ll need a brief 15-minute call to assess your call volume and set pricing accordingly. Please let me know a convenient time.  
+
+Best,  
+Mat  
+XHEART Agency · xheart.si
+
+===== C =====
+To: pim@rakphiw-example.co.th
+Subject: ขอบคุณสำหรับการโทร — ระบบตอบโทรศัพท์อัตโนมัติ (รักษ์ผิว)
+
+สวัสดีคุณพิมพ์
+
+ขอบคุณที่คุยกับเราเมื่อวันนี้ครับ สรุปสั้น ๆ ตามที่คุยกัน:
+
+ระบบตอบโทรศัพท์อัตโนมัติของเรา ตอบได้ทั้งภาษาไทยและภาษาอังกฤษ ตลอด 24 ชั่วโมง และนัดหมายลงใน Google Calendar ได้ — น่าจะช่วยเรื่องช่วงเย็นที่พนักงานรับสายไม่ทันได้ครับ
+
+เรื่องราคา ขึ้นอยู่กับปริมาณสายของคลินิก ผมขอคุยกับคุณประมาณ 15 นาทีเพื่อประเมินและแจ้งราคาที่ชัดเจนครับ สะดวกวันไหน เวลาไหนครับ
+
+ขอบคุณครับ
+Mat
+XHEART Agency · xheart.si
+
+===== D =====
+To: pim@rakphiw-example.co.th  
+Subject: Phone system for Rak Phiw clinic  
+
+Hi Pim,  
+
+We can build an automatic phone system that answers 24/7 in Thai and English, and books appointments directly into your Google Calendar. Pricing depends on your call volume.  
+
+I’ll do a 15-minute call with you to finalize the details.  
+
+Best,  
+Mat  
+XHEART Agency · xheart.si
+
+===== E =====
+To: pim@rakphiw-example.co.th
+Subject: Phone Answering System for Rak Phiw Clinic
+
+Dear Pim,
+
+Thank you for your call. Our voice answering system supports both Thai and English, operates 24/7, and can book appointments directly into your Google Calendar.
+
+I will review your clinic's call volume and propose pricing based on a 15-minute consultation call. Please let me know a convenient time next week.
+
+Best regards,
+Mat
+XHEART Agency · xheart.si

@@ -1,0 +1,86 @@
+CASE VOICE-reply-01 (voice follow-up email draft)
+EXPECT: Note line: no email address was given on the call (To: unknown / missing) — must NOT invent an address; English (caller switched to English); refers to tariff comparison in Germany and the 1M-customer goal without promising results; no prices, no case studies; short, human.
+
+===== A =====
+Missing: Jonas's actual email address.
+
+To: Jonas  
+Subject: Follow-up on VoltVergleich partnership discussion  
+
+Hi Jonas,  
+
+Thanks for speaking with me today about VoltVergleich. You mentioned you're building comparison tools for electricity and insurance tariffs in Germany, targeting 1 million customers, and you'd like XHEART's help with AI strategies and automation.  
+
+I don’t have your email address—could you share it so I can send more details?  
+
+Best,  
+Mat  
+XHEART Agency · xheart.si
+
+===== B =====
+Contact info missing: email address was not provided.
+
+To: Jonas at VoltVergleich  
+Subject: Follow-up on AI discussion  
+
+Hi Jonas,  
+
+Thanks for speaking with me today about VoltVergleich's goal of 1 million customers in Germany for electricity and insurance tariff comparisons. I understand you're looking to explore AI strategies, including automation and voice solutions.  
+
+I'll reach out to discuss how XHEART Agency can support your objectives. Please feel free to share a valid email address when convenient, and I'll connect with you directly.  
+
+Best,  
+Mat  
+XHEART Agency · xheart.si
+
+===== C =====
+Missing valid email address.
+
+To: Jonas <bobo.bobo@voltvergleich.de>  
+Subject: Follow-up from our conversation  
+
+Hi Jonas,  
+
+Thanks for speaking with me today about VoltVergleich. I understand your goal is to reach 1 million customers with your tariff comparison services in Germany.  
+
+I can help you explore how XHEART's AI agents and automation tools could support that objective. Let me know a good time to connect briefly and discuss ideas.  
+
+Best,  
+Mat  
+XHEART Agency · xheart.si
+
+===== D =====
+Note: no email address was captured on the call — the caller only said "bobo bobo" and "done" — so there is nowhere to send this until he supplies one.
+
+To: Jonas, VoltVergleich (email address not captured on the call)
+Subject: Following up on your call with XHEART
+
+Hi Jonas,
+
+Thanks for the call today. To recap what you told me: VoltVergleich compares electricity and insurance tariffs in Germany, and your goal is 1 million customers.
+
+XHEART Agency builds AI agents, voice agents, automation and websites. That is the area we would explore with you — how AI and automation could support that kind of growth.
+
+If a short call would be useful, just reply with a time that suits you.
+
+Best,
+Mat
+XHEART Agency · xheart.si
+
+===== E =====
+Missing: valid email address provided by caller.
+
+To: Jonas <not provided>  
+Subject: Follow-up from XHEART call  
+
+Hi Jonas,  
+
+Thanks for speaking with me today about VoltVergleich. I understand you're focused on reaching 1 million customers for your comparison services in electricity and insurance tariffs in Germany.  
+
+XHEART Agency can help with AI strategies, voice agents, automation, and websites to support that growth target.  
+
+Please share a proper email address so I can continue the conversation.  
+
+Best,  
+Mat  
+XHEART Agency · xheart.si

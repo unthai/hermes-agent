@@ -1,0 +1,12 @@
+Mailboxes checked: info@tours-example.com (ok), mat@agency-example.com (ok); none unreadable.
+
+REPLY NEEDED
+- info@ | Lena H. <lena.h@mail-example.de> | "Private tour 4 people Dec 12?" | Private Old City tour 12 Dec, 4 adults, Riverside pickup?
+- mat@ | Peter Lim <peter@growthlabs-example.sg> | "Re: AI for Growth Labs?" | Remove from list; maybe revisit AI services in Q2.
+
+MONEY
+- mat@ | Omise <no-reply@omise.co> | "Charge failed: chrg_test_5x" | Failed charge THB 2,900 to card 4242: insufficient funds.
+
+FYI: info@ 1; mat@ 0.
+Cold pitch: info@ 0; mat@ 1.
+Spam: info@ 1; mat@ 0.

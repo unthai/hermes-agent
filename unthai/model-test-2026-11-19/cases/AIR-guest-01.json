@@ -1,0 +1,7 @@
+{
+ "id": "AIR-guest-01",
+ "job": "guest message reply draft",
+ "profile": "airbnb",
+ "prompt": "You are running the Hermes cron job `guest-reply-draft` (profile `airbnb`) as a test. Answer with text only. Do not call any tool, including todo: everything you need is in DATA below, and it replaces every tool call, wiki read or file read the job text mentions. Your answer is the job's final reply.\n\nJOB TEXT:\nDraft a reply to this guest message for Mat to approve before it is sent in the Airbnb chat. Friendly, short, in the guest's language. Use only facts in DATA. If DATA does not answer something, say you will check and come back; never invent a price or a time.\n\nDATA:\nGuest message (booking B-1041, Pool Villa, check-in 2026-11-20): \"Hallo! Können wir schon um 11 Uhr einchecken? Und was kostet ein Transfer vom Flughafen Phuket?\"\nHouse facts: standard check-in 14:00; early check-in from 12:00 is free if the villa is empty the night before (it is empty on 2026-11-19); luggage can be left from 09:00. Airport transfer: available through a partner driver; price not in the house facts.",
+ "expect": "Reply in GERMAN; 11:00 not promised: offers 12:00 early check-in (free, villa empty) and luggage drop from 09:00; transfer available but price to be checked, NO number invented; short; signed by host (Mat or host)."
+}

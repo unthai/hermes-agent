@@ -1,0 +1,29 @@
+SOCIAL — Blotato, fetched 2026-11-19T12:20Z (20 min old, fresh)
+
+COVERAGE (last published / next scheduled)
+- facebook Mat Xheart — none / none — GAP
+- facebook Xheart Unthai — 11-19 10:00 / 11-19 15:00
+- youtube Mat xheart (XHEART) — 11-16 11:32 / none — GAP
+- youtube Joe (Doggystyle) — 11-18 13:00 / 11-19 13:00
+- youtube Birds Conspiracy — none / none — GAP
+- instagram trydoggystyle — 11-19 07:00 / 11-19 13:00
+- instagram birdsconspiracy — none / none — GAP
+- instagram xhearttv — none / none — GAP
+- tiktok birdsconspiracy — 11-19 11:02 / none (inside 48h)
+- tiktok trydoggystyle — 11-18 13:00 / 11-19 13:00
+- tiktok xhearttv — none / none — GAP
+- twitter xheart_tv — 11-18 07:02 / none (inside 48h)
+- twitter trydoggystyle — 11-19 10:00 / none (inside 48h)
+
+FAILED — 3 posts in 7d, all instagram trydoggystyle, identical error:
+"Error posting to Instagram: We restrict certain activity to protect our community…"
+- 11-15 04:00 — "Chin on the edge. Out cold. A bolster bed for…"
+- 11-15 01:00 — "Signs your dog needs more sleep. Swipe for 5…"
+- 11-14 15:00 — "The ball came back. Best day ever. It came…"
+(Repeated IG restriction — worth checking whether the account is rate-limited.)
+
+COMMENTS TO ANSWER — 0. The file holds only 3 comments, all isAuthor true (ours, 11-14).
+
+DMs (updated in last 48h) — none. Newest conversation update in the file is 2026-11-15T23:04Z (facebook, Xheart Unthai), already ~3.5 days old.
+
+NOT COVERED — accounts outside Blotato are not in this report: the Tour In Facebook Pages held in the dashboard, HERALD groups, and LinkedIn.

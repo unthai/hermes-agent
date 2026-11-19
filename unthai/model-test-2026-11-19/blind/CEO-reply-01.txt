@@ -1,0 +1,66 @@
+CASE CEO-reply-01 (inbox reply draft (phase 2.2))
+EXPECT: Confirms Thai + Google Calendar; NO number for price; explains price depends on call volume and offers a 15-min call or a short example; <=120 words; Subject 'Re: AI for Narin Clinic?'; signed Mat; reads human; English.
+
+===== A =====
+Subject: Re: AI for Narin Clinic
+
+Hi Narin,
+
+The voice agent can speak Thai and will book into your Google Calendar. I'm happy to send a short example made for your clinic if you'd like to see it first.
+
+Pricing depends on call volume, so I set the price after a quick 15-minute conversation. Are you available for a brief call this week to discuss what works for you?
+
+Best,
+Mat
+
+===== B =====
+Subject: Re: AI for Narin Clinic?
+
+Hi Narin,
+
+The voice agent can definitely speak Thai and book directly into Google Calendar.
+
+I'd be happy to send a short example made for your needs - no call required unless you'd prefer one.
+
+Best to reconnect via call so I can give you accurate pricing based on your expected volume. Would next week work for you?
+
+Mat
+
+===== C =====
+Subject: Re: AI for Narin Clinic?
+
+Hi Narin,
+
+The voice agent can speak Thai and will book into your Google Calendar. I'm happy to send a short example made for your clinic—no call needed if you'd like to see it first.
+
+Pricing depends on call volume, so I set the price after a quick chat. When would be good for a 15-minute call to confirm the details?
+
+Best,
+Mat
+
+===== D =====
+Subject: Re: AI for Narin Clinic?
+
+Hi Narin,
+
+Thanks for getting back to me — good to hear you're interested.
+
+Yes, the voice agent speaks both Thai and English, and it can book appointments straight into Google Calendar.
+
+On cost, it depends on your call volume, so I don't want to guess at a number. I set pricing after a short 15-minute call, and I'm happy to do that whenever suits you.
+
+If it's easier, I can also send you a short example made for Narin Clinic — no call needed. Just let me know which you'd prefer.
+
+Mat
+
+===== E =====
+Subject: Re: AI for Narin Clinic?
+
+Hi Narin,
+
+The voice agent can speak Thai and will book into your Google Calendar. I'm happy to send a short example made for your clinic if that would be useful.
+
+I set the price after a quick chat, so let me know when works for a 15-minute call and we can discuss.
+
+Best,
+Mat

@@ -1,0 +1,12 @@
+info@tours-example.com (read ok), mat@agency-example.com (read ok)
+
+Reply needed:
+info@ | Lena H. <lena.h@mail-example.de> | Private tour 4 people Dec 12? | asking availability for private tour Dec 12, pick-up from Riverside hotels
+mat@ | Peter Lim <peter@growthlabs-example.sg> | Re: AI for Growth Labs? | replying no thanks, remove from list
+
+Money:
+mat@ | Omise <no-reply@omise.co> | Charge failed: chrg_test_5x | THB 2,900 charge failed: insufficient funds
+
+FYI: info@ (1), mat@ (1)
+Cold pitch: info@ (0), mat@ (1)
+Spam: info@ (1), mat@ (0)

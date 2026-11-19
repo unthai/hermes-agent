@@ -1,0 +1,115 @@
+CASE AIR-rentals-01 (rentals-daily)
+EXPECT: Looks wrong: Pool Villa double booking B-1041 (20-23) vs B-1042 (22-24) overlap 22-23; B-1044 has no room; B-1039 missing amount. Next 48h: Garden Studio check-out 11-20 (B-1030), Loft check-in 11-19 / out 11-21, Pool Villa check-in 11-20. Cancelled B-1033 listed. Empty nights as ranges, no amount invented for B-1039. Under 25 lines.
+
+===== A =====
+Daily rentals report – 2026-11-19 (Bangkok)
+
+1) New / changed / cancelled:
+- B-1041: Airbnk, Pool Villa, 20-23Nov, Guest A., 21,600 THB (new)
+- B-1042: Booking.com, Pool Villa, 22-24Nov, Guest B., 15,800 THB (new)
+- B-1039: Direct, Loft 2BR, 26-28Nov, Guest C., no amount (new)
+- B-1033: Airbnb, Garden Studio, 21-24Nov, Guest D., 6,900 THB (cancelled)
+
+2) Next 48 h:
+Nov 20: Garden Studio checkout (B-1030), Pool Villa checkin (B-1041)
+Nov 19: Loft 2BR checkin (B-1036)
+Nov 21: Loft 2BR checkout (B-1036)
+
+3) Empty nights (14d):
+Garden Studio: 20Nov–03Dec
+Pool Villa: 19Nov, 25-03Dec
+Loft 2BR: 21-25Nov, 28-03Dec
+
+4) Looks wrong:
+- B-1044: Direct booking, 29-30Nov, no room assigned
+- B-1039: Loft 2BR new booking, amount missing
+
+===== B =====
+RENTALS DAILY — 2026-11-19 (Bangkok), read-only
+
+NEW / CHANGED / CANCELLED (24 h)
+new B-1041 Airbnb · Pool Villa · 20–23 Nov · Guest A. · 21,600 THB
+new B-1042 Booking.com · Pool Villa · 22–24 Nov · Guest B. · 15,800 THB
+new B-1039 Direct · Loft 2BR · 26–28 Nov · Guest C. · amount missing
+cancelled B-1033 Airbnb · Garden Studio · 21–24 Nov · Guest D. · 6,900 THB
+
+NEXT 48 H (19–21 Nov)
+Garden Studio: out 20 Nov (B-1030); no arrivals
+Pool Villa: in 20 Nov (B-1041); no departures
+Loft 2BR: in 19 Nov (B-1036); out 21 Nov (window edge)
+
+EMPTY NIGHTS (19 Nov–2 Dec, 14 nights)
+Garden Studio: 20 Nov–2 Dec (13)
+Pool Villa: 19 Nov (1); 24 Nov–2 Dec (9)
+Loft 2BR: 21–25 Nov (5); 28 Nov–2 Dec (5)
+
+LOOKS WRONG
+Pool Villa double-booked 22 Nov: B-1041 (20–23) overlaps B-1042 (22–24)
+B-1044 Direct 29–30 Nov, 3,000 THB — no room assigned
+B-1039 amount missing
+B-1033 cancellation leaves Garden Studio 21–24 Nov open
+
+===== C =====
+1) New / changed / cancelled:
+- B-1041: Airbnb, Pool Villa, 20-23 Nov, Guest A., 21,600 THB (new)
+- B-1042: Booking.com, Pool Villa, 22-24 Nov, Guest B., 15,800 THB (new)
+- B-1039: Direct, Loft 2BR, 26-28 Nov, Guest C., no amount (new)
+- B-1033: Airbnb, Garden Studio, 21-24 Nov, Guest D., 6,900 THB (cancelled)
+
+2) Next 48 h:
+- Garden Studio: checkout 20 Nov (B-1030)
+- Pool Villa: checkin 20 Nov (B-1041)
+- Loft 2BR: checkin 19 Nov, checkout 21 Nov (B-1036)
+
+3) Empty nights (next 14 days):
+- Garden Studio: 21-24 Nov
+- Pool Villa: 24-22 Nov
+- Loft 2BR: 21-26 Nov, 28-29 Nov
+
+4) Looks wrong:
+- B-1039: missing amount_thb
+- B-1044: no room assigned
+
+===== D =====
+New / changed / cancelled:
+- B-1041: Airbnb, Pool Villa, 2026-11-20 to 2026-11-23, Guest A. (invented), 21,600 THB (new)
+- B-1042: Booking.com, Pool Villa, 2026-11-22 to 2026-11-24, Guest B. (invented), 15,800 THB (new)
+- B-1039: Direct, Loft 2BR, 2026-11-26 to 2026-11-28, Guest C. (invented), missing amount (new)
+- B-1033: Airbnb, Garden Studio, 2026-11-21 to 2026-11-24, Guest D. (invented), 6,900 THB (cancelled)
+
+Next 48 h:
+- Garden Studio: checkout 2026-11-20 (B-1030)
+- Pool Villa: checkin 2026-11-20 (B-1041)
+- Loft 2BR: checkin 2026-11-19, checkout 2026-11-21 (B-1036)
+
+Empty nights (next 14 days):
+- Garden Studio: 2026-11-21 to 2026-11-22
+- Pool Villa: 2026-11-21, 2026-11-24 to 2026-11-25, 2026-11-25
+- Loft 2BR: 2026-11-22 to 2026-11-25, 2026-11-29 to 2026-12-03
+
+Looks wrong:
+- B-1039: missing amount
+- B-1044: booking without a room
+
+===== E =====
+Daily Rentals Report - 2026-11-19 (Bangkok)
+
+1) New / changed / cancelled:
+New: B-1041, Airbnb, Pool Villa, 20-23 Nov, Guest A., 21,600 THB
+New: B-1042, Booking.com, Pool Villa, 22-24 Nov, Guest B., 15,800 THB
+New: B-1039, Direct, Loft 2BR, 26-28 Nov, Guest C., amount missing
+Cancelled: B-1033, Airbnb, Garden Studio, 21-24 Nov, Guest D., 6,900 THB
+
+2) Next 48 h:
+Garden Studio: checkout 20 Nov (B-1030), checkin 20 Nov (B-1041)
+Pool Villa: checkin 20 Nov (B-1041)
+Loft 2BR: checkin 19 Nov, checkout 21 Nov (B-1036)
+
+3) Empty nights (next 14 days):
+Garden Studio: 19 Nov; 24-03 Dec
+Pool Villa: 19 Nov; 25-03 Dec
+Loft 2BR: 22-25 Nov; 29-03 Dec
+
+4) Looks wrong:
+B-1039: missing amount_thb
+B-1044: room is null

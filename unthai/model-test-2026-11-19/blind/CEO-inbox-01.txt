@@ -1,0 +1,81 @@
+CASE CEO-inbox-01 (inbox-triage)
+EXPECT: First line lists hello@ and rooms@ checked, shop@ NOT read (IMAP login failed) — may stop or continue but must flag it; Reply needed oldest first: rooms 07:55 Tom late arrival, hello 08:12 Narin (lead reply), hello 16:00 Daniel partner; Money: Stripe payout THB 18,450 (10:02) and hosting invoice USD 42 (15:20); FYI counts hello 1 (GitHub), rooms 1 (Airbnb); Cold pitch hello 2; Spam rooms 1. No invented amounts. Under 25 lines.
+
+===== A =====
+Mailboxes checked: hello@agency-example.com, rooms@stay-example.com (ERROR: shop@store-example.com - IMAP login failed)
+
+Reply needed:
+hello@ | Narin P. <narin@clinic-example.co.th> | "Re: AI for Narin Clinic?" | Thai voice agent cost estimate and Google Calendar booking
+rooms@ | Tom R. <tom.r@mail-example.com> | "Late arrival tonight" | Late night check-in arrangement after 1am arrival
+hello@ | Daniel K. <daniel@agencypartner-example.com> | "Partnership: white-label voice agents" | Discuss white-label partnership for Malaysia market
+
+Money:
+hello@ | Stripe <notifications@stripe.com> | "Your payout of THB 18,450.00 is on its way" | Payout confirmation for THB 18,450
+hello@ | Accounts <billing@hosting-example.com> | "Invoice INV-2291 due 2026-11-25" | Invoice for USD 42 VPS hosting due
+
+FYI: hello@1, rooms@1
+Cold pitch: hello@2, rooms@0
+Spam: hello@0, rooms@1
+
+===== B =====
+hello@agency-example.com (ok), rooms@stay-example.com (ok), shop@store-example.com (IMAP login failed)
+
+Reply needed:
+hello@ | Narin P. <narin@clinic-example.co.th> | Re: AI for Narin Clinic? | Thai/voices/calendar/cost?
+rooms@ | Tom R. <tom.r@mail-example.com> | Late arrival tonight | Arrives 23:30, need entry at 1am?
+
+Money:
+hello@ | Accounts <billing@hosting-example.com> | Invoice INV-2291 due 2026-11-25 | USD42 VPS invoice due
+
+FYI: hello@1, rooms@1
+Cold pitch: hello@2
+Spam: rooms@1
+
+===== C =====
+Mailboxes checked: hello@agency-example.com (ok), rooms@stay-example.com (ok). shop@store-example.com: IMAP login failed.
+
+Reply needed:
+hello@ | Narin P. <narin@clinic-example.co.th> | "Re: AI for Narin Clinic?" | Thai voice agent cost and calendar booking?
+rooms@ | Tom R. <tom.r@mail-example.com> | "Late arrival tonight" | Need after-midnight check-in assistance at 23:30.
+hello@ | Daniel K. <daniel@agencypartner-example.com> | "Partnership: white-label voice agents" | White-label partnership discussion for Malaysia reselling.
+
+Money:
+hello@ | Stripe <notifications@stripe.com> | "Your payout of THB 18,450.00 is on its way" | Payout of THB 18,450.00 is being processed.
+hello@ | Accounts <billing@hosting-example.com> | "Invoice INV-2291 due 2026-11-25" | USD 42.00 VPS invoice due Nov 25.
+
+FYI: hello@ 2, rooms@ 1
+Cold pitch: hello@ 1
+Spam: hello@ 0, rooms@ 1
+
+===== D =====
+Mailboxes checked: hello@agency-example.com (ok), rooms@stay-example.com (ok), shop@store-example.com (IMAP login failed)
+
+Reply needed:
+hello@agency-example.com | Narin P. <narin@clinic-example.co.th> | Re: AI for Narin Clinic? | Thai voice agent cost and calendar booking
+rooms@stay-example.com | Tom R. <tom.r@mail-example.com> | Late arrival tonight | Let us in at 1am after 23:30 flight
+
+Money:
+hello@agency-example.com | Stripe <notifications@stripe.com> | Your payout of THB 18,450.00 | Payout funds being sent
+hello@agency-example.com | Accounts <billing@hosting-example.com> | Invoice INV-2291 due 2026-11-25 | USD 42 overdue VPS bill
+
+FYI: hello@agency-example.com (1), rooms@stay-example.com (1)
+Cold pitch: hello@agency-example.com (1)
+Spam: rooms@stay-example.com (1)
+
+===== E =====
+Mailboxes checked: hello@agency-example.com (ok), rooms@stay-example.com (ok). Unreadable: shop@store-example.com — IMAP login failed (no counts included for it).
+
+REPLY NEEDED (oldest first)
+rooms@ | Tom R. <tom.r@mail-example.com> | Late arrival tonight | Flight lands 23:30, asks to be let in around 1am.
+hello@ | Narin P. <narin@clinic-example.co.th> | Re: AI for Narin Clinic? | Interested; asks Thai voice support, Google Calendar booking, rough cost.
+hello@ | Daniel K. <daniel@agencypartner-example.com> | Partnership: white-label voice agents | Malaysian reseller wants to discuss white-labelling our voice agents.
+
+MONEY (oldest first)
+hello@ | Stripe <notifications@stripe.com> | Your payout of THB 18,450.00 is on its way | Payout notice; no action requested.
+hello@ | Accounts <billing@hosting-example.com> | Invoice INV-2291 due 2026-11-25 | USD 42.00 VPS invoice due Nov 25.
+
+COUNTS
+hello@ — FYI: 1 (GitHub CI passed) · Cold pitch: 2 (SEO backlinks, paid guest posts) · Spam: 0
+rooms@ — FYI: 1 (Airbnb reservation Dec 2-5) · Cold pitch: 0 · Spam: 1 (fake iPhone win)
+
+Note: shop@store-example.com unread, so its traffic is unclassified this run.

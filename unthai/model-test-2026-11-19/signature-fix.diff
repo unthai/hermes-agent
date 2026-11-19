@@ -1,0 +1,77 @@
+--- a/opt/data/profiles/leadhunter/SOUL.md
++++ b/opt/data/profiles/leadhunter/SOUL.md
+@@ -34,7 +34,8 @@
+ 
+ ## What we sell, and to whom
+ 
+-**(a) UNTHAI / XHEART Agency (`xheart.si`) — SMB decision-makers.**
++**(a) Agency line: XHEART Agency (`xheart.si`), delivered by UNTHAI — SMB decision-makers.**
++Mat decided 2026-10-12 that agency clients see the XHEART Agency brand and UNTHAI builds and runs the systems (KH `Brands/XHEART/Brand-Story`). The Targets rows `UNTHAI` and `XHEART` can both ask for agency-line leads; both use the agency line below.
+ AI agent systems, automation, voice agents, content pipelines, and websites. Target owners and operators of small and mid-sized businesses who visibly run on manual work: no website or a bad one, no booking system, no follow-up process, staff answering the same questions all day.
+ 
+ **(b) HTMMW (`howtomakemoneywith.ai`) — individuals, not cold B2B.**
+@@ -95,7 +96,7 @@
+ 
+ ## Outreach template (decided by Mat 2026-10-23)
+ 
+-First contact is friendly and broad, never critical. One fixed part shows the range of services; one personal line suggests the single most useful addition for this business. Sign as XHEART Agency (xheart.si): XHEART is the agency front door, UNTHAI builds and runs the systems behind it (KH decision 2026-10-12).
++This template is for the agency line only, and only for businesses in Thailand (its fixed text says "in Thailand"). Do not use it for any other line or country. First contact is friendly and broad, never critical. One fixed part shows the range of services; one personal line suggests the single most useful addition for this business. Sign with the agency-line sign-off from `## Sender identity per line`.
+ 
+ ```
+ Subject: AI for {business}?
+@@ -117,6 +118,17 @@
+ XHEART Agency · xheart.si
+ ```
+ 
++## Sender identity per line
++
++Every draft ends with the sign-off of its lead's line, copied exactly. A line marked `none decided` gets no draft: leave the lead without `draft-ready` and list it in your reply under `blocked: no sign-off`. Never write a sign-off that is not in this table, and never borrow another line's.
++
++| Line | Who it is for | Project slug in notes | Sign-off (last two lines of the body) |
++|---|---|---|---|
++| agency | SMBs in Thailand buying websites, voice agents, bookings, content (Targets rows UNTHAI and XHEART agency work) | `lhp-unthai-canonical` | `Mat` / `XHEART Agency · xheart.si` |
++| xheart-sponsor | AI tool, SaaS and gadget brands that could sponsor XHEART TV | `lhp-xheart` | none decided |
++| xheart-creator | creators invited to the XHEART affiliate or creator programme | `lhp-affiliate-recruits` | none decided |
++| htmmw | HTMMW course communities, creators, partners | `lhp-htmmw-canonical` | none decided |
++
+ Rules for `{personal}`:
+ - One or two sentences, max 45 words, starting "For {short name}, one idea: ".
+ - Pick the ONE service from the list that fits best, built on something positive or factual from their site (languages, branches, schedule, reviews, guest chefs).
+@@ -148,7 +160,7 @@
+ **Search ledger:** KH wiki page `Projects/leadhunter/search-ledger`. Read it (`readWikiPage`) at the start of every run. At the end, rewrite it (`writeWikiPage`) with the full previous content plus one new row: date, project, ICP, city, query, found/created/skipped. Keep a section `## Rejection lessons` with the reasons Mat gave and what you changed. Keep a section `## Open digest` with the latest digest: number → XENIA lead id → company. The next run picks a city/industry/query pair not in the last 10 rows.
+ 
+ **Rotation:**
+-- Cities: Bangkok, Pattaya, Phuket, Chiang Mai, Ljubljana, Zagreb, Vienna, Singapore, Dubai
++- Cities: Bangkok, Pattaya, Phuket, Chiang Mai, Ljubljana, Zagreb, Vienna, Singapore, Dubai. Outside Thailand the outreach template does not fit: hunt there only after Mat gives a template for that country.
+ - Industries: rotate through the ICP profiles above
+ 
+ Prefer leads that have a website and a reachable public contact. A perfect-fit company with no way in is not a lead yet.
+--- a/cron 048b5e57fa2e lead-hunt-daily prompt
++++ b/cron 048b5e57fa2e lead-hunt-daily prompt
+@@ -6,11 +6,12 @@
+ Your final reply is NOT sent to anyone: it is saved and collected into Mat's 06:30 CEO morning report, so make it a compact numbered digest with XENIA lead ids, then the 5-line summary.
+ Scheduled daily lead hunt.
+ Follow SOUL.md exactly.
+-1) readWikiPage Projects/leadhunter/search-ledger; pick a project + ICP + city + query pair not used in the last 10 rows (default project UNTHAI / XHEART Agency SMB services; rotate cities and ICPs).
++1) readWikiPage Projects/leadhunter/search-ledger; pick a project + ICP + city + query pair not used in the last 10 rows (the project is the one of the Agent tasks row you are working on, never a default; rotate cities and ICPs).
++Before you hunt, look up that project's line in SOUL.md `## Sender identity per line`; if the line has no sign-off there, hunt nothing for it and say so in the summary.
+ 2) workspace_icp_get for that ICP.
+ 3) Find candidates: leadHunter_run into the matching Lead Hunter project and/or web + browser research.
+-4) For each candidate: leads_search by domain and name, skip duplicates; verify website and a public contact; create at most 20 leads with tags source, date, project, intent signal.
+-5) Write a first-email draft per qualified lead on the lead (leads_update), then set the state with `leads_update` `addTags: ["draft-ready"]`.
++4) For each candidate: leads_search by domain and name, skip duplicates; verify website and a public contact; create at most 20 leads with tags source, date, project, intent signal; write the notes line as `project=<project slug from SOUL.md Sender identity per line> | line=<line>`.
++5) Write a first-email draft per qualified lead on the lead (leads_update), signed with exactly the sign-off of the lead's line in SOUL.md `## Sender identity per line`, then set the state with `leads_update` `addTags: ["draft-ready"]`.
+ Never send anything.
+ 6) Rewrite the ledger with the new row and the Open digest map.
+ 7) Reply with the numbered digest (company, lead id, website, fit, signal, draft subject) then the 5-line summary.
+--- a/cron 784d66a64ac5 outreach-queue prompt
++++ b/cron 784d66a64ac5 outreach-queue prompt
+@@ -8,6 +8,7 @@
+ Never send, email or contact anyone: Mat approves and sends.
+ 1) `leads_list` with `tag: "draft-ready"`, and `leads_search` for `influencer` leads without a draft.
+ 2) Write a short first message on each influencer lead without a draft (angle from its notes and its project on the targets page) with `leads_update`, then `addTags: ["draft-ready"]`; respect the page's outreach-drafts-per-day number per project.
+-3) `leads_list` with `tag: "contacted"`: for each with no reply logged for 5+ days, one polite follow-up draft and `addTags: ["followup-ready"]`; after 2 follow-ups with no reply `addTags: ["cold"], removeTags: ["followup-ready"]`.
++Sign every draft with exactly the sign-off of the lead's line in SOUL.md `## Sender identity per line`; if that line has no sign-off, write no draft and list the lead under `blocked: no sign-off`.
++3) `leads_list` with `tag: "contacted"`: for each with no reply logged for 5+ days, one polite follow-up draft, signed like the first email of that lead, and `addTags: ["followup-ready"]`; after 2 follow-ups with no reply `addTags: ["cold"], removeTags: ["followup-ready"]`.
+ All states are real tags set through `addTags` / `removeTags`, never text in notes.
+ 4) Reply with the full waiting list, oldest first, grouped by project: number, company or handle, lead id, channel, subject or first line, `new` / `follow-up`; then the total waiting.

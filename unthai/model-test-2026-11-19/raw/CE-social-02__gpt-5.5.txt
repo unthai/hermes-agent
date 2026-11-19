@@ -1,0 +1,1 @@
+The file `/opt/data/feeds/social-blotato.json` was last fetched at 2026-11-19T04:20:01Z, which is older than 3 hours compared to the current time 2026-11-19T12:40Z. Stopping report.

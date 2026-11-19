@@ -1,0 +1,16 @@
+Mailboxes checked: hello@agency-example.com (ok), rooms@stay-example.com (ok). Unreadable: shop@store-example.com — IMAP login failed (no counts included for it).
+
+REPLY NEEDED (oldest first)
+rooms@ | Tom R. <tom.r@mail-example.com> | Late arrival tonight | Flight lands 23:30, asks to be let in around 1am.
+hello@ | Narin P. <narin@clinic-example.co.th> | Re: AI for Narin Clinic? | Interested; asks Thai voice support, Google Calendar booking, rough cost.
+hello@ | Daniel K. <daniel@agencypartner-example.com> | Partnership: white-label voice agents | Malaysian reseller wants to discuss white-labelling our voice agents.
+
+MONEY (oldest first)
+hello@ | Stripe <notifications@stripe.com> | Your payout of THB 18,450.00 is on its way | Payout notice; no action requested.
+hello@ | Accounts <billing@hosting-example.com> | Invoice INV-2291 due 2026-11-25 | USD 42.00 VPS invoice due Nov 25.
+
+COUNTS
+hello@ — FYI: 1 (GitHub CI passed) · Cold pitch: 2 (SEO backlinks, paid guest posts) · Spam: 0
+rooms@ — FYI: 1 (Airbnb reservation Dec 2-5) · Cold pitch: 0 · Spam: 1 (fake iPhone win)
+
+Note: shop@store-example.com unread, so its traffic is unclassified this run.

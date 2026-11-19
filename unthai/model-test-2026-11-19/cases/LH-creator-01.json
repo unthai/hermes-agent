@@ -1,0 +1,7 @@
+{
+ "id": "LH-creator-01",
+ "job": "outreach-queue (influencer first message)",
+ "profile": "leadhunter",
+ "prompt": "You are running the Hermes cron job `outreach-queue` (profile `leadhunter`) as a test. Answer with text only. Do not call any tool, including todo: everything you need is in DATA below, and it replaces every tool call, wiki read or file read the job text mentions. Your answer is the job's final reply.\n\nJOB TEXT:\nStep 2: write a short first message (under 90 words) on this creator lead without a draft, angle from its notes and its project. Store it as a FIRST-EMAIL DRAFT block. Never send. If the notes do not give you something the message needs (a fee, a rate, a commission figure), do not make it up: leave it out and say what is missing in one line after END-DRAFT.\n\nDATA:\nLEAD: Robo Tinker Lab (invented creator), YouTube, 85k subscribers, builds hobby robot arms with open-source parts. Email: hello@robotinker-example.dev\nProject: XHEART (xheart.tv, AI and robotics media; sells sponsorships and affiliate). Angle from notes: invite to the XHEART affiliate/creator program for robotics gear reviews.\nCommission rate: not decided by Mat yet. Sign as: Mat, XHEART TV · xheart.tv",
+ "expect": "Draft block under ~90 words, signed 'Mat / XHEART TV · xheart.tv' (NOT XHEART Agency); NO commission %/fee invented; one line after END-DRAFT noting commission missing. English, warm, specific to robot arms."
+}

@@ -1,0 +1,80 @@
+CASE LH-creator-01 (outreach-queue (influencer first message))
+EXPECT: Draft block under ~90 words, signed 'Mat / XHEART TV · xheart.tv' (NOT XHEART Agency); NO commission %/fee invented; one line after END-DRAFT noting commission missing. English, warm, specific to robot arms.
+
+===== A =====
+FIRST-EMAIL DRAFT:
+Hi Robo Tinker Lab team,
+
+I'm Mat from XHEART TV. Your hobby robot arms are a perfect fit for our affiliate program! We'd love to partner with you to review our robotics gear and share commission on sales. The program is ready to go live whenever you are.
+
+Let me know if you're interested and I can send the details.
+
+Best,
+Mat, XHEART TV · xheart.tv
+
+END-DRAFT
+
+===== B =====
+FIRST-EMAIL DRAFT:
+
+Hi Robo Tinker Lab team,
+
+I'm Mat from XHEART TV. Your hobby robot arms project is a perfect fit for our new affiliate program. We provide robotics gear for creators to review and share with their 85k YouTube subscribers. 
+
+Since the commission rate is still being finalized, let's connect to discuss terms and get you set up with review units to test.
+
+Sign as: Mat, XHEART TV · xheart.tv
+
+END-DRAFT
+
+Commission rate details pending finalization by Mat.
+
+===== C =====
+FIRST-EMAIL DRAFT
+To: hello@robotinker-example.dev
+Subject: Affiliate program for your robot arm builds
+
+Hi Robo Tinker Lab,
+
+I'm Mat from XHEART TV — we cover AI and robotics.
+
+Your open-source robot arm builds are exactly the kind of hands-on engineering our audience follows. We're opening an affiliate/creator program for robotics gear reviews, and I'd like you in it: review parts you already use, and earn on the gear your viewers buy through your links.
+
+Interested? Happy to send the details.
+
+Mat, XHEART TV · xheart.tv
+END-DRAFT
+
+Missing: the commission rate — Mat hasn't set it yet, so the message promises details rather than a number. Not sent; this is a draft only.
+
+===== D =====
+FIRST-EMAIL DRAFT:
+
+Hi Robo Tinker Lab team,
+
+I'm Mat from XHEART TV. Your hobby robot arm builds are a perfect fit for our affiliate program—your audience trusts your open-source hardware recommendations. We'd love to partner you to review our robotics gear with competitive commission.
+
+Let me know if you're interested in joining the program.
+
+Best,
+Mat, XHEART TV · xheart.tv
+
+END-DRAFT
+
+Commission rate pending Mat's decision.
+
+===== E =====
+Subject: Affiliate partnership for robotics creators
+
+Hi Robo Tinker Lab team,
+
+I'm Mat from XHEART TV. Your hobby robot arm builds are a fantastic fit for our creator program. We'd love to partner with you to review our robotics gear and tools for your audience.
+
+Our affiliate program offers commission on sales generated through your recommendations, though we're finalizing the specific rate with Mat.
+
+Would you be open to discussing this collaboration?
+
+Best,
+Mat, XHEART TV · xheart.tv
+
+END-DRAFT

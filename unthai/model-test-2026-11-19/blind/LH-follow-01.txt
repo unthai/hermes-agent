@@ -1,0 +1,86 @@
+CASE LH-follow-01 (outreach-queue (follow-up))
+EXPECT: One FOLLOW-UP DRAFT block; short (<120 words body); refers to the first email; no pressure, no invented results/prices/case studies; signature Mat / XHEART Agency · xheart.si; END-DRAFT; English.
+
+===== A =====
+FOLLOW-UP DRAFT — Siam Pure Physio (front@siampure-example.com), follow-up 1 of 2
+
+Subject: Re: AI for Siam Pure Physio?
+
+Hi Siam Pure Physio team,
+
+I wrote to you on 12 November about AI for your clinic — no reply needed if the timing is wrong.
+
+One thing I mentioned then still seems worth a look: automatic LINE reminders for appointments, so patients get their next session time without your team making the call.
+
+If you'd like, I can send a short example made for Siam Pure Physio. If not, just reply "no" and I won't write again.
+
+Mat
+XHEART Agency · xheart.si
+
+Notes: 7 days since first contact, no reply, 0 follow-ups so far — this is follow-up 1 of the allowed 2, so the lead stays `contacted` and a second follow-up would only be drafted after another 5+ silent days. Nothing was sent or contacted; this is a draft only.
+
+===== B =====
+FOLLOW-UP DRAFT:
+Subject: Quick follow-up: AI for Siam Pure Physio?
+
+Hi Siam Pure Physio team,
+
+Just circling back on my email from last week about bringing AI into your physiotherapy practice.
+
+For Siam Pure Physio, one idea: automatic appointment reminders by LINE, so patients get their next session time without a call.
+
+If it sounds interesting, I'm happy to send a short example made for you. No call needed.
+If not, just reply "no" and I won't write again.
+
+Mat
+XHEART Agency · xheart.si
+
+===== C =====
+FOLLOW-UP DRAFT:
+Subject: Quick follow-up: AI for Siam Pure Physio?
+
+Hi Siam Pure Physio team,
+
+Just circling back on my email from last week about bringing AI into your physiotherapy practice.
+
+For Siam Pure Physio, one idea: automatic appointment reminders by LINE, so patients get their next session time without a call.
+
+If it sounds interesting, I'm happy to send a short example made for you. No call needed.
+If not, just reply "no" and I won't write again.
+
+Mat
+XHEART Agency · xheart.si
+
+===== D =====
+Subject: AI for Siam Pure Physio?
+
+Hi Siam Pure Physio team,
+
+Have you ever considered bringing AI into your business? We help physiotherapy clinics in Thailand with:
+- a fresh website or redesign, in several languages
+- an AI voice agent that answers calls and common questions, 24/7, in English and Thai
+- automatic bookings, confirmations and reminders (LINE, WhatsApp, email)
+- social media content and marketing
+
+Checking in on my email from Nov 12th about LINE appointment reminders for Siam Pure Physio - happy to send a quick example if this sounds useful.
+
+If it sounds interesting, I'm happy to send a short example made for you. No call needed.
+If not, just reply "no" and I won't write again.
+
+Mat
+XHEART Agency · xheart.si
+
+===== E =====
+FOLLOW-UP DRAFT:
+
+Subject: AI for Siam Pure Physio?
+
+Hi Siam Pure Physio team,
+
+Just circling back on my email from last week about AI for physiotherapy clinics. I mentioned automatic appointment reminders by LINE so patients get their next session time without a call.
+
+If that sounds useful, I'm happy to send a short example made for you. No call needed.
+If not, just reply "no" and I won't write again.
+
+Mat
+XHEART Agency · xheart.si

@@ -1,0 +1,214 @@
+{
+ "AIR-guest-01": {
+  "deepseek-v4.1-flash_1017": [
+   "promised-11"
+  ],
+  "gpt-5.5": [
+   "promised-11"
+  ],
+  "gpt-6-luna": [
+   "promised-11"
+  ],
+  "gpt-6-sol": [
+   "not-german"
+  ],
+  "gpt-6.1-sol": [
+   "promised-11"
+  ]
+ },
+ "AIR-rentals-01": {
+  "deepseek-v4.1-flash_1017": [],
+  "gpt-5.5": [],
+  "gpt-6-luna": [],
+  "gpt-6-sol": [],
+  "gpt-6.1-sol": []
+ },
+ "CE-social-01": {
+  "deepseek-v4.1-flash_1017": [],
+  "gpt-5.5": [],
+  "gpt-6-luna": [],
+  "gpt-6-sol": [],
+  "gpt-6.1-sol": []
+ },
+ "CE-social-02": {
+  "deepseek-v4.1-flash_1017": [],
+  "gpt-5.5": [],
+  "gpt-6-luna": [],
+  "gpt-6-sol": [],
+  "gpt-6.1-sol": []
+ },
+ "CEO-brief-01": {
+  "deepseek-v4.1-flash_1017": [],
+  "gpt-5.5": [],
+  "gpt-6-luna": [],
+  "gpt-6-sol": [],
+  "gpt-6.1-sol": []
+ },
+ "CEO-inbox-01": {
+  "deepseek-v4.1-flash_1017": [],
+  "gpt-5.5": [],
+  "gpt-6-luna": [],
+  "gpt-6-sol": [],
+  "gpt-6.1-sol": []
+ },
+ "CEO-inbox-02": {
+  "deepseek-v4.1-flash_1017": [],
+  "gpt-5.5": [],
+  "gpt-6-luna": [],
+  "gpt-6-sol": [],
+  "gpt-6.1-sol": []
+ },
+ "CEO-reply-01": {
+  "deepseek-v4.1-flash_1017": [],
+  "gpt-5.5": [],
+  "gpt-6-luna": [],
+  "gpt-6-sol": [],
+  "gpt-6.1-sol": []
+ },
+ "LH-creator-01": {
+  "deepseek-v4.1-flash_1017": [],
+  "gpt-5.5": [],
+  "gpt-6-luna": [],
+  "gpt-6-sol": [],
+  "gpt-6.1-sol": []
+ },
+ "LH-digest-01": {
+  "deepseek-v4.1-flash_1017": [],
+  "gpt-5.5": [
+   "first-line",
+   "last-line"
+  ],
+  "gpt-6-luna": [
+   "last-line"
+  ],
+  "gpt-6-sol": [
+   "first-line"
+  ],
+  "gpt-6.1-sol": []
+ },
+ "LH-digest-02": {
+  "deepseek-v4.1-flash_1017": [
+   "not-exact-SILENT"
+  ],
+  "gpt-5.5": [
+   "not-exact-SILENT"
+  ],
+  "gpt-6-luna": [
+   "not-exact-SILENT"
+  ],
+  "gpt-6-sol": [
+   "not-exact-SILENT"
+  ],
+  "gpt-6.1-sol": [
+   "not-exact-SILENT"
+  ]
+ },
+ "LH-first-01": {
+  "deepseek-v4.1-flash_1017": [],
+  "gpt-5.5": [],
+  "gpt-6-luna": [
+   "personal-opening"
+  ],
+  "gpt-6-sol": [
+   "names-weakness"
+  ],
+  "gpt-6.1-sol": []
+ },
+ "LH-first-02": {
+  "deepseek-v4.1-flash_1017": [],
+  "gpt-5.5": [
+   "personal-opening"
+  ],
+  "gpt-6-luna": [
+   "personal-opening",
+   "names-weakness"
+  ],
+  "gpt-6-sol": [
+   "personal-opening",
+   "names-weakness"
+  ],
+  "gpt-6.1-sol": [
+   "personal-opening",
+   "names-weakness"
+  ]
+ },
+ "LH-first-03": {
+  "deepseek-v4.1-flash_1017": [],
+  "gpt-5.5": [],
+  "gpt-6-luna": [],
+  "gpt-6-sol": [
+   "no-header"
+  ],
+  "gpt-6.1-sol": []
+ },
+ "LH-first-04": {
+  "deepseek-v4.1-flash_1017": [
+   "personal-opening"
+  ],
+  "gpt-5.5": [],
+  "gpt-6-luna": [],
+  "gpt-6-sol": [
+   "no-END-DRAFT",
+   "personal-opening"
+  ],
+  "gpt-6.1-sol": [
+   "personal-opening"
+  ]
+ },
+ "LH-follow-01": {
+  "deepseek-v4.1-flash_1017": [
+   "no-END-DRAFT"
+  ],
+  "gpt-5.5": [
+   "no-followup-header",
+   "no-END-DRAFT"
+  ],
+  "gpt-6-luna": [
+   "no-END-DRAFT"
+  ],
+  "gpt-6-sol": [
+   "no-END-DRAFT"
+  ],
+  "gpt-6.1-sol": [
+   "no-END-DRAFT"
+  ]
+ },
+ "LH-follow-02": {
+  "deepseek-v4.1-flash_1017": [],
+  "gpt-5.5": [],
+  "gpt-6-luna": [],
+  "gpt-6-sol": [],
+  "gpt-6.1-sol": []
+ },
+ "VOICE-log-01": {
+  "deepseek-v4.1-flash_1017": [],
+  "gpt-5.5": [],
+  "gpt-6-luna": [],
+  "gpt-6-sol": [],
+  "gpt-6.1-sol": []
+ },
+ "VOICE-reply-01": {
+  "deepseek-v4.1-flash_1017": [],
+  "gpt-5.5": [],
+  "gpt-6-luna": [],
+  "gpt-6-sol": [],
+  "gpt-6.1-sol": [
+   "invented-email"
+  ]
+ },
+ "VOICE-reply-02": {
+  "deepseek-v4.1-flash_1017": [],
+  "gpt-5.5": [
+   "not-thai"
+  ],
+  "gpt-6-luna": [
+   "not-thai"
+  ],
+  "gpt-6-sol": [
+   "not-thai"
+  ],
+  "gpt-6.1-sol": [
+   "not-thai"
+  ]
+ }
+}

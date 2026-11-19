@@ -1,0 +1,62 @@
+Approval queue: 3 of 3
+1. Golden Teak Restaurant (lhp-unthai-canonical) — new
+table@goldenteak-example.com
+Subject: AI for Golden Teak Restaurant?
+
+Hi Golden Teak Restaurant team,
+
+Have you ever considered bringing AI into your business? We help restaurants in Thailand with:
+- a fresh website or redesign, in several languages
+- an AI voice agent that answers calls and common questions, 24/7, in English and Thai
+- automatic bookings, confirmations and reminders (LINE, WhatsApp, email)
+- social media content and marketing
+
+For Golden Teak, one idea: automatic table confirmations by LINE the afternoon before, in Thai and English.
+
+If it sounds interesting, I'm happy to send a short example made for you. No call needed.
+If not, just reply "no" and I won't write again.
+
+Mat
+XHEART Agency · xheart.si
+
+2. Pattaya Bay Divers (lhp-unthai-canonical) — new
+NO EMAIL
+Subject: AI for Pattaya Bay Divers?
+
+Hi Pattaya Bay Divers team,
+
+Have you ever considered bringing AI into your business? We help dive schools in Thailand with:
+- a fresh website or redesign, in several languages
+- an AI voice agent that answers calls and common questions, 24/7, in English and Thai
+- automatic bookings, confirmations and reminders (LINE, WhatsApp, email)
+- social media content and marketing
+
+For Pattaya Bay Divers, one idea: a voice agent that answers course and pickup questions at night, when most bookings come in.
+
+If it sounds interesting, I'm happy to send a short example made for you. No call needed.
+If not, just reply "no" and I won't write again.
+
+Mat
+XHEART Agency · xheart.si
+
+3. Riverside Kids Academy (xheart) — new
+admin@riversidekids-example.ac.th
+Subject: AI for Riverside Kids Academy?
+
+Hi Riverside Kids Academy team,
+
+Have you ever considered bringing AI into your business? We help schools in Thailand with:
+- a fresh website or redesign, in several languages
+- an AI voice agent that answers calls and common questions, 24/7, in English and Thai
+- automatic bookings, confirmations and reminders (LINE, WhatsApp, email)
+- social media content and marketing
+
+For Riverside Kids Academy, one idea: a parent line that answers term dates and fees questions in Thai and English, 24/7.
+
+If it sounds interesting, I'm happy to send a short example made for you. No call needed.
+If not, just reply "no" and I won't write again.
+
+Mat
+XHEART Agency · xheart.si
+
+Reply: send 1,3 · drop 2 - reason · edit 4: new text

@@ -1,0 +1,18 @@
+Before anything else, read the KH wiki page `Projects/hermes/targets`.
+Your work is the rows of its `## Agent tasks` table where Agent = `leadhunter` and Job = `lead-hunt-daily`: work only for rows with Active = yes and Per run above 0, in the Priority order of the Targets table, and produce at most that row's Per run for its project (the hard caps on the page also apply).
+Skip a project whose Targets row says Active = no.
+Use that project's own section on the page for niches, ICP and cities.
+If no row qualifies, reply 'Nothing to do: no active agent tasks.' and stop.
+Your final reply is NOT sent to anyone: it is saved and collected into Mat's 06:30 CEO morning report, so make it a compact numbered digest with XENIA lead ids, then the 5-line summary.
+Scheduled daily lead hunt.
+Follow SOUL.md exactly.
+1) readWikiPage Projects/leadhunter/search-ledger; pick a project + ICP + city + query pair not used in the last 10 rows (the project is the one of the Agent tasks row you are working on, never a default; rotate cities and ICPs).
+Before you hunt, look up that project's line in SOUL.md `## Sender identity per line`; if the line has no sign-off there, hunt nothing for it and say so in the summary.
+2) workspace_icp_get for that ICP.
+3) Find candidates: leadHunter_run into the matching Lead Hunter project and/or web + browser research.
+4) For each candidate: leads_search by domain and name, skip duplicates; verify website and a public contact; create at most 20 leads with tags source, date, project, intent signal; write the notes line as `project=<project slug from SOUL.md Sender identity per line> | line=<line>`.
+5) Write a first-email draft per qualified lead on the lead (leads_update), signed with exactly the sign-off of the lead's line in SOUL.md `## Sender identity per line`, then set the state with `leads_update` `addTags: ["draft-ready"]`.
+Never send anything.
+6) Rewrite the ledger with the new row and the Open digest map.
+7) Reply with the numbered digest (company, lead id, website, fit, signal, draft subject) then the 5-line summary.
+If nothing qualified, say so in the summary and still update the ledger.

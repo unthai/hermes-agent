@@ -1,0 +1,14 @@
+Mailboxes checked: hello@agency-example.com (ok), rooms@stay-example.com (ok). shop@store-example.com: IMAP login failed.
+
+Reply needed:
+hello@ | Narin P. <narin@clinic-example.co.th> | "Re: AI for Narin Clinic?" | Thai voice agent cost and calendar booking?
+rooms@ | Tom R. <tom.r@mail-example.com> | "Late arrival tonight" | Need after-midnight check-in assistance at 23:30.
+hello@ | Daniel K. <daniel@agencypartner-example.com> | "Partnership: white-label voice agents" | White-label partnership discussion for Malaysia reselling.
+
+Money:
+hello@ | Stripe <notifications@stripe.com> | "Your payout of THB 18,450.00 is on its way" | Payout of THB 18,450.00 is being processed.
+hello@ | Accounts <billing@hosting-example.com> | "Invoice INV-2291 due 2026-11-25" | USD 42.00 VPS invoice due Nov 25.
+
+FYI: hello@ 2, rooms@ 1
+Cold pitch: hello@ 1
+Spam: hello@ 0, rooms@ 1

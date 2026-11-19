@@ -1,0 +1,165 @@
+CASE CE-social-01 (social-daily)
+EXPECT: Sections 1-5 in order; Coverage one line per each of 13 accounts with last published and next scheduled, GAP where both empty in 48h; Failed: the instagram trydoggystyle 2026-11-15 restriction error (and any other failed); comments to answer only isAuthor false without reply; DMs updated in last 48h; Not covered stated. No invented post/date. Under 45 lines.
+
+===== A =====
+Daily Social Report - 2026-11-19T12:40Z
+
+**Coverage**
+- Mat Xheart (facebook): no posts, no schedules, GAP
+- Xheart Unthai (facebook): last 2026-11-19T10:00Z, next 2026-11-19T15:00Z
+- Mat xheart (XHEART) (youtube): last 2026-11-16T11:32Z, no schedules, GAP
+- Joe (Doggystyle | Dog Gear) (youtube): last 2026-11-18T13:00Z, next 2026-11-19T13:00Z
+- Birds Conspiracy (youtube): no posts, no schedules, GAP
+- trydoggystyle (instagram): last 2026-11-19T07:00Z, next 2026-11-19T13:00Z
+- birdsconspiracy (instagram): no posts, no schedules, GAP
+- xhearttv (instagram): no posts, no schedules, GAP
+- birdsconspiracy (tiktok): last 2026-11-19T11:02Z, no schedules
+- trydoggystyle (tiktok): last 2026-11-18T13:01Z, next 2026-11-19T13:00Z
+- xhearttv (tiktok): no posts, no schedules, GAP
+- xheart_tv (twitter): last 2026-11-18T07:02Z, no schedules
+- trydoggystyle (twitter): last 2026-11-19T10:00Z, no schedules
+
+**Failed**
+- trydoggystyle (instagram) 2026-11-15: Chin on the edge. Out cold. A bolster bed for serious - Error posting to Instagram: We restrict certain activity to protect our community. Tell us if you think we made a mistak
+- trydoggystyle (instagram) 2026-11-15: Signs your dog needs more sleep. Swipe for 5 tips. - Error posting to Instagram: We restrict certain activity to protect our community. Tell us if you think we made a mistak
+- trydoggystyle (instagram) 2026-11-14: The ball came back. Best day ever. It came back again. - Error posting to Instagram: We restrict certain activity to protect our community. Tell us if you think we made a mistak
+
+**Comments to answer**
+None (all recent comments are authored by us)
+
+**DMs**
+- Xheart Unthai (facebook): last update 2026-11-15T23:04Z
+
+**Not covered**
+Tour In Facebook Pages held in the dashboard, HERALD groups, LinkedIn are not in this report.
+
+===== B =====
+Daily Social Report - 2026-11-19T12:40Z
+
+**Coverage**
+facebook Mat Xheart: No published posts, no scheduled posts - GAP
+facebook Xheart Unthai: Last published 2026-11-19, next scheduled 2026-11-19T15:00 - OK
+youtube Mat xheart (XHEART): No published posts, no scheduled posts - GAP
+youtube Joe (Doggystyle | Dog Gear, Style & Training Tips): No published posts, next scheduled 2026-11-19T13:00 - OK
+youtube Birds Conspiracy: No published posts, no scheduled posts - GAP
+instagram trydoggystyle: Last published 2026-11-19, next scheduled 2026-11-19T13:00 - OK
+instagram birdsconspiracy: No published posts, no scheduled posts - GAP
+instagram xhearttv: No published posts, no scheduled posts - GAP
+tiktok birdsconspiracy: Last published 2026-11-19, next scheduled none - OK
+tiktok trydoggystyle: No published posts, next scheduled 2026-11-19T13:00 - OK
+tiktok xhearttv: No published posts, no scheduled posts - GAP
+twitter xheart_tv: Last published 2026-11-18 - OK
+twitter trydoggystyle: Last published 2026-11-19 - OK
+
+**Failed**
+instagram trydoggystyle 2026-11-15: Chin on the edge. Out cold. A bolster bed for serious... Error: We restrict certain activity to protect our community.
+instagram trydoggystyle 2026-11-15: Signs your dog needs more sleep. Swipe for 5 tips... Error: We restrict certain activity to protect our community.
+instagram trydoggystyle 2026-11-14: The ball came back. Best day ever. It came back again... Error: We restrict certain activity to protect our community.
+
+**Comments to answer**
+None (all comments in data are from us)
+
+**DMs**
+None updated in last 48 hours
+
+**Not covered**
+Tour In Facebook Pages held in the dashboard, HERALD groups, LinkedIn are not in this report.
+
+===== C =====
+Fetched: 2026-11-19T12:20:01Z (20m ago, fresh)
+
+## COVERAGE
+
+Mat Xheart (facebook): last published 2026-11-19T07:00:28, scheduled 2026-11-19T15:00:00 - GAP
+Xheart Unthai (facebook): last published 2026-11-19T10:00:07, scheduled 2026-11-19T15:00:00
+Mat xheart (youtube): GAP
+Joe (youtube): last published 2026-11-18T13:00:03, scheduled 2026-11-19T13:00:00
+Birds Conspiracy (youtube): GAP
+trydoggystyle (instagram): last published 2026-11-19T07:00:28, scheduled 2026-11-19T13:00:00
+birdsconspiracy (instagram): GAP
+xhearttv (instagram): GAP
+birdsconspiracy (tiktok): last published 2026-11-19T11:02:39
+trydoggystyle (tiktok): last published 2026-11-18T13:00:56, scheduled 2026-11-19T13:00:00
+xhearttv (tiktok): GAP
+xheart_tv (twitter): GAP
+trydoggystyle (twitter): last published 2026-11-19T10:00:02
+
+## FAILED
+
+trydoggystyle (instagram): 2026-11-15, "Chin on the edge. Out cold. A bolster bed..." Error: We restrict certain activity to protect our community. Tell us if you think we made a mistak
+trydoggystyle (instagram): 2026-11-15, "Signs your dog needs more sleep. Swipe..." Error: We restrict certain activity to protect our community
+trydoggystyle (instagram): 2026-11-14, "The ball came back. Best day ever..." Error: We restrict certain activity to protect our community
+
+## COMMENTS TO ANSWER
+
+15 comments pending: all comments listed are authored by "us" (our replies). Zero comments from others awaiting response.
+
+## DMs
+
+No conversations updated in last 48 hours (latest: 2026-11-15T23:04:23Z, account 58194)
+
+## NOT COVERED
+
+Accounts outside Blotato (for example the Tour In Facebook Pages held in the dashboard, HERALD groups, LinkedIn) are not in this report.
+
+===== D =====
+SOCIAL — Blotato, fetched 2026-11-19T12:20Z (20 min old, fresh)
+
+COVERAGE (last published / next scheduled)
+- facebook Mat Xheart — none / none — GAP
+- facebook Xheart Unthai — 11-19 10:00 / 11-19 15:00
+- youtube Mat xheart (XHEART) — 11-16 11:32 / none — GAP
+- youtube Joe (Doggystyle) — 11-18 13:00 / 11-19 13:00
+- youtube Birds Conspiracy — none / none — GAP
+- instagram trydoggystyle — 11-19 07:00 / 11-19 13:00
+- instagram birdsconspiracy — none / none — GAP
+- instagram xhearttv — none / none — GAP
+- tiktok birdsconspiracy — 11-19 11:02 / none (inside 48h)
+- tiktok trydoggystyle — 11-18 13:00 / 11-19 13:00
+- tiktok xhearttv — none / none — GAP
+- twitter xheart_tv — 11-18 07:02 / none (inside 48h)
+- twitter trydoggystyle — 11-19 10:00 / none (inside 48h)
+
+FAILED — 3 posts in 7d, all instagram trydoggystyle, identical error:
+"Error posting to Instagram: We restrict certain activity to protect our community…"
+- 11-15 04:00 — "Chin on the edge. Out cold. A bolster bed for…"
+- 11-15 01:00 — "Signs your dog needs more sleep. Swipe for 5…"
+- 11-14 15:00 — "The ball came back. Best day ever. It came…"
+(Repeated IG restriction — worth checking whether the account is rate-limited.)
+
+COMMENTS TO ANSWER — 0. The file holds only 3 comments, all isAuthor true (ours, 11-14).
+
+DMs (updated in last 48h) — none. Newest conversation update in the file is 2026-11-15T23:04Z (facebook, Xheart Unthai), already ~3.5 days old.
+
+NOT COVERED — accounts outside Blotato are not in this report: the Tour In Facebook Pages held in the dashboard, HERALD groups, and LinkedIn.
+
+===== E =====
+## Daily Social Report (2026-11-19T12:20Z)
+
+**COVERAGE**
+- facebook: Mat Xheart - no posts, GAP
+- facebook: Xheart Unthai - published 19 Nov 10:00, scheduled 19 Nov 15:00
+- youtube: Mat xheart (XHEART) - no posts, GAP
+- youtube: Joe (Doggystyle | Dog Gear) - published 18 Nov 13:00, scheduled 19 Nov 13:00
+- instagram: trydoggystyle - published 19 Nov 07:00, scheduled 19 Nov 13:00
+- instagram: birdsconspiracy - no posts, GAP
+- instagram: xhearttv - no posts, GAP
+- tiktok: birdsconspiracy - published 19 Nov 11:02
+- tiktok: trydoggystyle - published 18 Nov 13:00, scheduled 19 Nov 13:00
+- tiktok: xhearttv - no posts, GAP
+- twitter: xheart_tv - published 18 Nov 07:02
+- twitter: trydoggystyle - published 19 Nov 10:00
+
+**FAILED** (last 7 days)
+- instagram: trydoggystyle, 15 Nov 04:00 - "Chin on the edge. Out cold. A bolster bed" - Instagram restriction error
+- instagram: trydoggystyle, 15 Nov 01:00 - "Signs your dog needs more sleep. Swipe for 5" - Instagram restriction error
+- instagram: trydoggystyle, 14 Nov 15:00 - "The ball came back. Best day ever. It came" - Instagram restriction error
+
+**COMMENTS TO ANSWER**
+- None (0)
+
+**DMs** (updated last 48h)
+- facebook: Xheart Unthai - user_1, user_2 - last update 15 Nov 23:04
+
+**NOT COVERED**
+Tour In Facebook Pages, HERALD groups, LinkedIn

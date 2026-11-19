@@ -1,0 +1,142 @@
+{
+ "AIR-guest-01": {
+  "A": "gpt-6-luna",
+  "B": "gpt-6.1-sol",
+  "C": "deepseek-v4.1-flash:1017",
+  "D": "gpt-5.5",
+  "E": "gpt-6-sol"
+ },
+ "AIR-rentals-01": {
+  "A": "gpt-6-luna",
+  "B": "deepseek-v4.1-flash:1017",
+  "C": "gpt-5.5",
+  "D": "gpt-6-sol",
+  "E": "gpt-6.1-sol"
+ },
+ "CE-social-01": {
+  "A": "gpt-5.5",
+  "B": "gpt-6-sol",
+  "C": "gpt-6.1-sol",
+  "D": "deepseek-v4.1-flash:1017",
+  "E": "gpt-6-luna"
+ },
+ "CE-social-02": {
+  "A": "gpt-6-sol",
+  "B": "gpt-5.5",
+  "C": "gpt-6.1-sol",
+  "D": "deepseek-v4.1-flash:1017",
+  "E": "gpt-6-luna"
+ },
+ "CEO-brief-01": {
+  "A": "gpt-6-sol",
+  "B": "deepseek-v4.1-flash:1017",
+  "C": "gpt-5.5",
+  "D": "gpt-6-luna",
+  "E": "gpt-6.1-sol"
+ },
+ "CEO-inbox-01": {
+  "A": "gpt-5.5",
+  "B": "gpt-6-luna",
+  "C": "gpt-6-sol",
+  "D": "gpt-6.1-sol",
+  "E": "deepseek-v4.1-flash:1017"
+ },
+ "CEO-inbox-02": {
+  "A": "gpt-6-luna",
+  "B": "gpt-5.5",
+  "C": "gpt-6.1-sol",
+  "D": "deepseek-v4.1-flash:1017",
+  "E": "gpt-6-sol"
+ },
+ "CEO-reply-01": {
+  "A": "gpt-5.5",
+  "B": "gpt-6.1-sol",
+  "C": "gpt-6-luna",
+  "D": "deepseek-v4.1-flash:1017",
+  "E": "gpt-6-sol"
+ },
+ "LH-creator-01": {
+  "A": "gpt-6.1-sol",
+  "B": "gpt-6-sol",
+  "C": "deepseek-v4.1-flash:1017",
+  "D": "gpt-6-luna",
+  "E": "gpt-5.5"
+ },
+ "LH-digest-01": {
+  "A": "gpt-6-sol",
+  "B": "gpt-5.5",
+  "C": "deepseek-v4.1-flash:1017",
+  "D": "gpt-6-luna",
+  "E": "gpt-6.1-sol"
+ },
+ "LH-digest-02": {
+  "A": "deepseek-v4.1-flash:1017",
+  "B": "gpt-6.1-sol",
+  "C": "gpt-6-luna",
+  "D": "gpt-5.5",
+  "E": "gpt-6-sol"
+ },
+ "LH-first-01": {
+  "A": "gpt-6-luna",
+  "B": "gpt-6.1-sol",
+  "C": "gpt-6-sol",
+  "D": "gpt-5.5",
+  "E": "deepseek-v4.1-flash:1017"
+ },
+ "LH-first-02": {
+  "A": "gpt-6-luna",
+  "B": "gpt-6-sol",
+  "C": "gpt-5.5",
+  "D": "gpt-6.1-sol",
+  "E": "deepseek-v4.1-flash:1017"
+ },
+ "LH-first-03": {
+  "A": "gpt-6-luna",
+  "B": "gpt-5.5",
+  "C": "deepseek-v4.1-flash:1017",
+  "D": "gpt-6.1-sol",
+  "E": "gpt-6-sol"
+ },
+ "LH-first-04": {
+  "A": "gpt-5.5",
+  "B": "gpt-6-sol",
+  "C": "deepseek-v4.1-flash:1017",
+  "D": "gpt-6-luna",
+  "E": "gpt-6.1-sol"
+ },
+ "LH-follow-01": {
+  "A": "deepseek-v4.1-flash:1017",
+  "B": "gpt-6-sol",
+  "C": "gpt-6-luna",
+  "D": "gpt-5.5",
+  "E": "gpt-6.1-sol"
+ },
+ "LH-follow-02": {
+  "A": "gpt-6-luna",
+  "B": "gpt-5.5",
+  "C": "deepseek-v4.1-flash:1017",
+  "D": "gpt-6.1-sol",
+  "E": "gpt-6-sol"
+ },
+ "VOICE-log-01": {
+  "A": "gpt-6-luna",
+  "B": "deepseek-v4.1-flash:1017",
+  "C": "gpt-6.1-sol",
+  "D": "gpt-5.5",
+  "E": "gpt-6-sol"
+ },
+ "VOICE-reply-01": {
+  "A": "gpt-6-sol",
+  "B": "gpt-5.5",
+  "C": "gpt-6.1-sol",
+  "D": "deepseek-v4.1-flash:1017",
+  "E": "gpt-6-luna"
+ },
+ "VOICE-reply-02": {
+  "A": "gpt-6-luna",
+  "B": "gpt-6.1-sol",
+  "C": "deepseek-v4.1-flash:1017",
+  "D": "gpt-6-sol",
+  "E": "gpt-5.5"
+ }
+}

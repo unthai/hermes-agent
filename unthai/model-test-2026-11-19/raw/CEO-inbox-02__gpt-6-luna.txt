@@ -1,0 +1,15 @@
+Mailboxes: info@tours-example.com (read ok), mat@agency-example.com (read ok)
+
+Reply needed:
+info@tours-example.com | Lena H. <lena.h@mail-example.de> | Private tour 4 people Dec 12? | asking availability for private tour Dec 12 for 4 adults, pickup from Riverside hotels
+mat@agency-example.com | Peter Lim <peter@growthlabs-example.sg> | Re: AI for Growth Labs? | replying no thanks, remove from list
+
+Money:
+mat@agency-example.com | Omise <no-reply@omise.co> | Charge failed: chrg_test_5x | THB 2,900 charge failed insufficient funds
+
+FYI: info@tours-example.com | 1 (TripAdvisor review)
+FYI: mat@agency-example.com | 0
+Cold pitch: info@tours-example.com | 0
+Cold pitch: mat@agency-example.com | 1 (Lifetime deal promo)
+Spam: info@tours-example.com | 1 (PayPal account limitation phishing)
+Spam: mat@agency-example.com | 0
